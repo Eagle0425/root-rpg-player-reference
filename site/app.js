@@ -6,7 +6,7 @@
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const normalize = value => String(value).normalize('NFKC').toLowerCase().replace(/[\s\p{P}]/gu, '');
   const slug = value => String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  const types = {basic:'基本動作',weapons:'武器動作',travel:'旅行動作',reputation:'名聲動作',feats:'遊俠專長',risks:'風險',tags:'裝備標籤',premade:'範例裝備',connections:'關係',glossary:'名詞',gm:'GM 參考',character:'角色',creation:'建立角色',session:'成長與聚會',characterMove:'角色動作'};
+  const types = {basic:'基本動作',weapons:'武器動作',travel:'旅行動作',reputation:'名聲動作',feats:'遊俠專長',risks:'風險',tags:'裝備標籤',premade:'範例裝備',connections:'關係',glossary:'名詞',gm:'GM 參考',character:'角色',creation:'建立角色',session:'成長與聚會',faction:'陣營',characterMove:'角色動作'};
   let favorites = new Set();
   try { favorites = new Set(JSON.parse(localStorage.getItem('root-rpg-favorites-v1') || '[]')); } catch (_) { /* Storage is optional. */ }
   const entries = [];
@@ -17,6 +17,7 @@
   }
   ['basic','weapons','reputation','risks','tags','premade','connections'].forEach(type => D[type].forEach(item => add(type,item)));
   D.feats.forEach(([title,en,use,risks]) => add('feats',{title,en,body:`用途：${use}。\n可能的風險：${risks}。` }));
+  D.factions.forEach(item=>add('faction',{...item,body:[item.overview,item.goal,item.tension,item.vagabonds].join('\n')}));
   D.glossary.forEach(([title,en,body]) => add('glossary',{title,en,body}));
   const forest = add('travel',{title:'穿越森林',en:'Travel Through the Forest',body:D.forest_result});
   const path = add('travel',{title:'沿道路旅行',en:'Travel Along the Path',body:D.path_result});
@@ -58,7 +59,7 @@
   function card(entry, standalone=false) {
     const negative=entry.type==='tags'&&entry.title.includes('〔負面〕');const title=entry.title.replace('〔負面〕','');
     const special=entry.type==='weapons'&&entry.body.startsWith('【特殊】');
-    return `<article class="reference-card ${negative?'negative':''}" id="${entry.id}"><div class="card-top"><div><span class="card-category">${esc(entry.role || types[entry.type])}</span><h3>${esc(title)}${special?'<span class="badge">特殊</span>':''}${negative?'<span class="badge negative">負面</span>':''}</h3><span class="card-en">${esc(entry.en || '')}</span></div><div class="card-actions">${star(entry)}</div></div><div class="card-body">${rich(special?entry.body.slice(4):entry.body)}</div>${explanation(entry,standalone)}<div class="card-bottom"><span>${entry.required?'起始已取得':negative?'建立成本返還 1 價值':entry.type==='tags'?'建立成本增加 1 價值':entry.type==='characterMove'?'角色專屬動作':'依故事情境觸發'}</span><button class="copy-button" data-copy="${entry.id}" aria-label="複製${esc(title)}連結">↗</button>${standalone?'':`<button class="text-link icon-button" style="font-size:11px" data-detail="${entry.id}">放大閱讀</button>`}</div></article>`;
+    return `<article class="reference-card ${negative?'negative':''}" id="${entry.id}"><div class="card-top"><div><span class="card-category">${esc(entry.role || types[entry.type])}</span><h3>${esc(title)}${special?'<span class="badge">特殊</span>':''}${negative?'<span class="badge negative">負面</span>':''}</h3><span class="card-en">${esc(entry.en || '')}</span></div><div class="card-actions">${star(entry)}</div></div><div class="card-body">${rich(special?entry.body.slice(4):entry.body)}</div>${explanation(entry,standalone)}<div class="card-bottom"><button class="copy-button" data-copy="${entry.id}" aria-label="複製${esc(title)}條目連結">複製條目連結</button><span>${entry.required?'起始已取得':negative?'建立成本返還 1 價值':entry.type==='tags'?'建立成本增加 1 價值':entry.type==='characterMove'?'角色專屬動作':''}</span>${standalone?'':`<button class="text-link icon-button" style="font-size:11px" data-detail="${entry.id}">放大閱讀</button>`}</div></article>`;
   }
   function heading(title, en, description='') { return `<header class="page-heading"><span class="eyebrow">${esc(en)}</span><h1>${esc(title)}</h1>${description?`<p>${esc(description)}</p>`:''}</header>`; }
   function empty(title,body) {return `<div class="empty-state"><b>${esc(title)}</b>${esc(body)}</div>`;}
@@ -69,16 +70,17 @@
   function table(headers,rows) {return `<div class="table-wrap"><table><thead><tr>${headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map(cell=>`<td>${esc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
   function renderHome() {
     const frequent=['attempt-a-roguish-feat','engage-in-melee','trust-fate','read-a-tense-situation'].map(s=>entries.find(e=>e.id.endsWith(s))).filter(Boolean);
-    return `<section class="hero"><div class="hero-copy"><span class="eyebrow">A FIELD GUIDE TO THE WOODLAND</span><h1>你的茂林，<br>隨手可查。</h1><p>從一次大膽的行動，到下一段冒險。<br>動作、裝備與角色，陪你穿行茂林的隨身手冊。</p><button class="hero-search" data-action="search"><span class="search-icon"></span><span>今天，你想查什麼？</span><kbd>/</kbd></button></div><img class="hero-art" src="assets/portraits/adventurer.webp" alt="背著裝備、準備出發的冒險者" fetchpriority="high"></section>
+    return `<aside class="home-warning" aria-label="使用與轉載提醒">${D.home_warning.map(line=>`<p><strong>${esc(line)}</strong></p>`).join('')}</aside><section class="hero"><div class="hero-copy"><span class="eyebrow">A FIELD GUIDE TO THE WOODLAND</span><h1>你的茂林，<br>隨手可查。</h1><p>從一次大膽的行動，到下一段冒險。<br>動作、裝備與角色，陪你穿行茂林的隨身手冊。</p><button class="hero-search" data-action="search"><span class="search-icon"></span><span>今天，你想查什麼？</span><kbd>/</kbd></button></div><img class="hero-art" src="assets/portraits/adventurer.webp" alt="背著裝備、準備出發的冒險者" fetchpriority="high"></section>
       <div class="quick-grid">${[['↗','動作速查','基本・武器・旅行・名聲','moves'],['◇','裝備標籤','35 正面 ＋ 10 負面','equipment'],['♧','認識你的角色','19 種扮演書','characters'],['↓','列印與填寫','參考資料・中文角色卡','downloads']].map(([icon,title,sub,route])=>`<a class="quick-tile" href="#${route}"><span class="tile-icon">${icon}</span><span class="arrow">↗</span><strong>${title}</strong><small>${sub}</small></a>`).join('')}</div>
+      <section class="home-introduction"><h2>歡迎來到《Root 茂林源記》</h2><div class="intro-quotes">${D.home_quotes.map(quote=>`<blockquote>${esc(quote)}</blockquote>`).join('')}</div>${D.home_intro.map(paragraph=>`<p>${esc(paragraph)}</p>`).join('')}<a class="text-link" href="#factions">認識茂林中的八個陣營 ↗</a></section>
       <div class="home-columns"><section><div class="heading-row"><h2>桌上常用動作</h2><a href="#moves">查看全部 ↗</a></div><div class="frequent-list">${frequent.map((e,i)=>`<a class="frequent-item" href="#entry/${e.id}"><span>0${i+1}</span><div><strong>${e.title}</strong><small>${e.en}</small></div><span>↗</span></a>`).join('')}</div></section><aside class="dice-panel"><h3>擲骰之前，先說故事。</h3><div class="dice-row"><b>10+</b><span>依動作取得較佳結果。</span></div><div class="dice-row"><b>7–9</b><span>依動作面對代價、限制或選擇。</span></div><div class="dice-row"><b>6−</b><span>失敗，GM 推進局勢；另有規定時依動作處理。</span></div><p class="micro">擲 2d6 ＋ 指定能力值。不同動作的結果各有差異，請閱讀完整效果。</p></aside></div>
       <div class="heading-row"><h2>讓你的旅人有個故事</h2><a href="#characters">查看 19 種角色 ↗</a></div><div class="character-grid">${D.books.slice(0,3).map(characterCard).join('')}</div>`;
   }
   function renderMoves() {
-    let list=entries.filter(e=>['basic','weapons','reputation','travel','feats','risks'].includes(e.type));
+    let list=entries.filter(e=>['basic','weapons','reputation','travel','feats'].includes(e.type));
     if(currentFilter==='travel')return heading('旅行與名聲','TRAVEL & REPUTATION','全體玩家共同決定旅行方式，並推派其中一人擲骰。')+controls([['all','全部'],['basic','基本動作'],['weapons','武器動作'],['feats','專長與風險'],['travel','旅行'],['reputation','名聲']], '搜尋旅行與名聲…')+renderTravel();
-    if(currentFilter!=='all')list=list.filter(e=>currentFilter==='feats'?['feats','risks'].includes(e.type):e.type===currentFilter);
-    const note=currentFilter==='weapons'?'<div class="notice">特殊動作須掌握對應武器技能，或由裝備等效果允許。貼身 intimate ／ 近距 close ／ 遠距 far。武裝攻擊預設 1 點創傷，空手通常 1 點疲勞，依動作及情境調整。</div>':currentFilter==='feats'?'<div class="notice">使用已掌握的專長時，擲骰＋靈巧；未掌握時改用「相信命運」。每項專長的風險列於卡片中，下方「風險」條目說明後果。</div>':'';
+    if(currentFilter!=='all')list=list.filter(e=>e.type===currentFilter);
+    const note=currentFilter==='weapons'?'<div class="notice">特殊動作須掌握對應武器技能，或由裝備等效果允許。貼身 intimate ／ 近距 close ／ 遠距 far。武裝攻擊預設 1 點創傷，空手通常 1 點疲勞，依動作及情境調整。</div>':currentFilter==='feats'?'<div class="notice">使用已掌握的專長時，擲骰＋靈巧；未掌握時改用「相信命運」。點擊各專長列出的風險名稱，即可查看後果說明。</div>':'';
     return heading('動作速查','MOVES','先說明你的角色要做什麼；符合觸發條件時，再使用對應動作。')+controls([['all','全部'],['basic','基本動作'],['weapons','武器動作'],['feats','專長與風險'],['travel','旅行'],['reputation','名聲']], '搜尋動作或效果…')+note+entryList(filtered(list));
   }
   function renderTravel() {
@@ -115,6 +117,7 @@
   }
   function renderCreation() {return heading('建立你的旅人','CHARACTER CREATION','依序完成 12 步；個別扮演書的特殊指示優先。')+`<div class="step-list">${D.creation.map(([title,body],i)=>`<section class="step-card" id="creation-step-${i+1}"><span class="step-number">${i+1}</span><div><h2>${esc(title.replace(/^\d+\s*/,''))}</h2><div class="card-body">${rich(body)}</div>${i===0?'<a class="text-link" href="#characters">選擇扮演書 ↗</a>':i===1?creationReference('names'):i===11?creationReference('connections'):i===9?'<a class="text-link" href="#equipment">建立與挑選裝備 ↗</a>':''}</div></section>`).join('')}</div>`;}
   function renderSession() {return heading('成長與聚會動作','ADVANCEMENT & SESSION MOVES','讓角色追逐自己的願望，也隨故事改變。')+`<div class="notice">${esc(D.growth_intro)}</div>${table(['每次選一項成長','上限與計算方式'],D.advances)}<div class="heading-row"><h2>聚會結束</h2></div><div class="cards-grid">${entries.filter(e=>e.type==='session'&&e.id!==growth.id).map(e=>card(e)).join('')}</div>`;}
+  function renderFactions() {return heading('陣營介紹','FACTIONS OF THE WOODLAND','權力、反抗與日常生存，交織成遊俠冒險的舞台。')+`<div class="notice">陣營不等於動物種族，也沒有整個陣營必然善良或邪惡。個別成員的立場與手段各有不同；遊俠通常不隸屬任何掌權者，卻會透過每次工作影響力量的平衡。四個擴充陣營不必全部同時加入，每桌可共同決定哪些勢力在本次故事中扮演重要角色。</div><nav class="faction-jumps" aria-label="陣營導覽">${D.factions.map(f=>`<a href="#factions/${slug(f.en)}">${esc(f.title)}</a>`).join('')}</nav><div class="faction-grid">${D.factions.map((f,i)=>`<article class="faction-card faction-${i}" id="faction-${slug(f.en)}"><span class="eyebrow">${esc(f.group)} · ${esc(f.motif)}</span><h2>${esc(f.title)}</h2><p class="card-en">${esc(f.en)}</p><p>${esc(f.overview)}</p>${[['他們想要什麼',f.goal],['矛盾與代價',f.tension],['遊俠與他們的關係',f.vagabonds]].map(([title,body])=>`<h3>${title}</h3><p>${esc(body)}</p>`).join('')}<aside class="faction-hook">${esc(f.hook)}</aside><p class="section-note">設定參考：${esc(f.source)}，書內第 ${f.pages} 頁。遊玩切入例為本站整理。</p></article>`).join('')}</div><div class="notice">與各陣營的名聲分別記錄。需要藉名聲取得人情、調度資源或影響 NPC 時，查看 <a class="text-link" href="#moves/reputation">名聲動作</a>。</div>`;}
   function renderGm() {const groups=[['agendas','你的目標'],['principles','你的原則'],['moves','你的動作']];return heading('GM 參考附錄','GM REFERENCE','以目標決定方向，以原則帶領，以動作推進局勢。')+`<div class="notice">玩家擲出失敗、行動或忽略危險造成明顯機會，或場面停滯時，可使用 GM 動作。軟動作預告危險、留下反應機會；硬動作直接落實後果。</div>`+groups.map(([key,title])=>`<div class="heading-row"><h2>${title}</h2></div><div class="cards-grid">${entries.filter(e=>e.type==='gm'&&e.group===key).map(e=>card(e)).join('')}</div>`).join('')+`<div class="heading-row"><h2>卡住時</h2></div><div class="cards-grid">${D.gm_stuck.map(v=>`<section class="reference-card"><h3>${v.title}</h3><span class="card-en">${v.en}</span><div class="card-body">${rich(v.body)}</div></section>`).join('')}</div><div class="heading-row"><h2>NPC 與傷害</h2></div><div class="notice">建立 NPC 時，給予名字、含種族的描述、工作與動機。真正交戰或須標記傷害時，再設定傷害軌與攻擊。單一 NPC 各軌 1–5 格。</div>${table(['NPC 範例','創傷','疲勞','磨損','士氣'],D.npc_tracks)}${table(['群體','人數','各傷害軌','傷害'],D.mobs)}${table(['攻擊／武器','傷害'],D.npc_attacks)}<p class="section-note">動機靈感：${D.npc_drives}</p>`;}
   function renderDownloads() {return heading('帶上你的手冊','PDF DOWNLOADS','離線查閱、列印上桌，或直接在電腦填寫中文角色卡。')+`<div class="download-grid">${D.downloads.map(d=>`<article class="download-card"><div class="file-icon">PDF</div><h2>${d.label}</h2><p>${d.description}</p><small>A4 · 繁體中文 · ${d.size} MB</small><a class="button" href="downloads/${d.file}" download>下載 PDF ↓</a></article>`).join('')}</div><div class="notice" style="margin-top:25px">可填寫版請使用支援 PDF 表單的閱讀器開啟，輸入或勾選後另存。網站內的收藏儲存在這台裝置的瀏覽器中。</div>`;}
   function renderAbout() {return heading('關於這份手冊','ABOUT THIS FIELD GUIDE')+`<article class="about-content"><p>這是一份供桌上遊戲查閱的非官方繁體中文整理，以目前校訂的玩家參考資料與 19 種中文角色卡為基礎。網站提供分類、搜尋及收藏；完整規則仍以正式出版品為準。</p><h2>整理與翻譯參考</h2><p>Root-Playbooks-PrintFriendly-20220228.pdf、Root-TO-Playbooks-Jan2022-PrintFriendly.pdf、RootTTPRG_Corebook_100721.pdf，以及既有中文 Root Move、Root Playbook、試算表與全文資料庫。既有翻譯參考 Mori、空空、阿羊。</p><p>亦參考 <a href="https://ps-cheng.github.io/root-rpg-zh/" target="_blank" rel="noopener noreferrer">茂林源記：中文網站 ↗</a>；與英文規則衝突的條目已按本次校訂文字整理。</p><h2>權利與圖片</h2><p>Root 與角色原繪 © Leder Games；遊戲文字與設計 © Magpie Games；角色原繪 Kyle Ferrin。上述權利屬原權利人所有。網站整理與中文音譯不代表官方版本。</p><h2>字體</h2><p>使用先前角色卡採用的清松手寫體：大標為 1 SemiBold、區塊標題為 1 Medium、重點為 2 SemiBold、內文與輔助資訊為 2 Regular。網站使用縮減字元並重新命名的網頁字體子集，來源為 max32002 / JasonHandWritingFonts；依 <a href="assets/fonts/OFL.txt">SIL Open Font License 1.1</a> 提供。</p><h2>收藏與閱讀</h2><p>不需帳號即可查閱。收藏僅儲存在你目前的瀏覽器，不會上傳到伺服器；清除瀏覽資料後會一併移除。頁面未使用追蹤或外部字體服務。</p><p>內容版本：${D.version}。PDF 下載與網站內容分別保留適合列印及手機閱讀的版面。</p></article>`;}
@@ -130,6 +133,9 @@
   }
   function render() {
     const [route='home',sub='']=(location.hash.replace(/^#/,'')||'home').split('/');
+    const equipmentSwitch=lastRoute==='equipment'&&route==='equipment';
+    const filterTop=equipmentSwitch?view.querySelector('.equipment-tags .section-tools')?.getBoundingClientRect().top:null;
+    const examplesOpen=equipmentSwitch&&!!view.querySelector('#equipment-examples[open]');
     if(route==='connections'){location.replace('#creation/connections');return;}
     if(route==='glossary'){location.replace('#moves/basic');return;}
     if(lastRoute!==route || (['moves','equipment'].includes(route)&&sub!==currentFilter)) {currentQuery='';currentFilter=sub||'all';}
@@ -139,6 +145,7 @@
     if(route==='home')view.innerHTML=renderHome();
     else if(route==='moves')view.innerHTML=renderMoves();
     else if(route==='equipment')view.innerHTML=renderEquipment();
+    else if(route==='factions')view.innerHTML=renderFactions();
     else if(route==='characters')view.innerHTML=renderCharacters();
     else if(route==='character') {const book=D.books.find(b=>b.en.toLowerCase()===sub);active='characters';view.innerHTML=book?renderCharacter(book):empty('找不到這位旅人','請回到角色列表。');}
     else if(route==='creation')view.innerHTML=renderCreation();
@@ -152,15 +159,23 @@
     document.querySelectorAll('[data-nav]').forEach(a=>{const on=a.dataset.nav===active;a.classList.toggle('active',on);if(on)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
     $('#favorite-count').textContent=favorites.size;
     view.dataset.route=location.hash.slice(1)||'home';
-    const pageTitle=$('h1',view)?.textContent||'玩家手冊';document.title=`${pageTitle} · 茂林旅人 Root RPG`;
+    const pageTitle=$('h1',view)?.textContent||'玩家手冊';document.title=`${pageTitle} · 茂林源記TRPG Root RPG`;
     annotateTerms(view);
-    window.scrollTo({top:0,behavior:'instant'});
+    if(equipmentSwitch&&filterTop!==null){
+      if(examplesOpen)$('#equipment-examples').open=true;
+      const filter=view.querySelector('.equipment-tags .section-tools');
+      window.scrollBy({top:filter.getBoundingClientRect().top-filterTop,behavior:'instant'});
+      filter.querySelector(`[data-filter="${currentFilter}"]`)?.focus({preventScroll:true});
+    }else window.scrollTo({top:0,behavior:'instant'});
+    if(route==='factions'&&sub){const section=$('#faction-'+sub);if(section)document.fonts.ready.then(()=>{if(location.hash==='#factions/'+sub)requestAnimationFrame(()=>section.scrollIntoView({block:'start'}));});}
     if(route==='creation'&&['names','connections'].includes(sub)){
       const section=$('#creation-'+sub);section.open=true;document.fonts.ready.then(()=>{if(location.hash==='#creation/'+sub)requestAnimationFrame(()=>section.scrollIntoView({block:'start'}));});
     }
     if(route==='equipment'&&sub==='premade')$('#equipment-examples').scrollIntoView({block:'start'});
   }
-  const termPattern=/下次\s*[＋+]1|創傷|疲勞|消耗|磨損|士氣|扣住|傷害/g;
+  const definitionEntries=entries.filter(e=>['glossary','risks'].includes(e.type));
+  const definitionLabels=definitionEntries.map(e=>e.title).filter(t=>t!=='下次 +1').sort((a,b)=>b.length-a.length);
+  const termPattern=new RegExp(['下次\\s*[＋+]1',...definitionLabels].join('|'),'g');
   function annotateTerms(root) {
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){
       if(!node.parentElement||node.parentElement.closest('a,button,summary,h1,h2,h3,h4,input,textarea,script,style,.card-en,.explanation-source,.sr-only'))return NodeFilter.FILTER_REJECT;
@@ -171,15 +186,15 @@
       const fragment=document.createDocumentFragment();let previous=0;termPattern.lastIndex=0;
       for(const match of node.nodeValue.matchAll(termPattern)){
         fragment.append(document.createTextNode(node.nodeValue.slice(previous,match.index)));
-        const title=match[0].startsWith('下次')?'下次 +1':match[0];const entry=entries.find(e=>e.type==='glossary'&&e.title===title);
+        const title=match[0].startsWith('下次')?'下次 +1':match[0];const entry=definitionEntries.find(e=>e.title===title);
         const link=document.createElement('a');link.href='#entry/'+entry.id;link.dataset.term=entry.id;link.className='term-link';link.textContent=match[0];link.setAttribute('aria-haspopup','dialog');link.setAttribute('aria-label',match[0]+'：查看說明');fragment.append(link);previous=match.index+match[0].length;
       }
       fragment.append(document.createTextNode(node.nodeValue.slice(previous)));node.replaceWith(fragment);
     }
   }
   function openTerm(id) {
-    const entry=byId.get(id);if(!entry||entry.type!=='glossary')return;
-    $('#term-content').innerHTML=`<span class="eyebrow">規則名詞</span><h2 id="term-title">${esc(entry.title)}</h2><p class="card-en">${esc(entry.en)}</p><div class="card-body">${rich(entry.body)}</div>${explanation(entry,true)}`;
+    const entry=byId.get(id);if(!entry||!['glossary','risks'].includes(entry.type))return;
+    $('#term-content').innerHTML=`<span class="eyebrow">${entry.type==='risks'?'遊俠專長風險':'規則名詞'}</span><h2 id="term-title">${esc(entry.title)}</h2><p class="card-en">${esc(entry.en)}</p><div class="card-body">${rich(entry.body)}</div>${explanation(entry,true)}`;
     const dialog=$('#term-dialog');if(!dialog.open)dialog.showModal();
   }
   function openSearch() {const dialog=$('#search-dialog');if(!dialog.open)dialog.showModal();$('#global-search').focus();search($('#global-search').value);}
@@ -187,7 +202,7 @@
     const q=normalize(query);let list=q?entries.filter(e=>e.search.includes(q)):entries.filter(e=>['basic','tags'].includes(e.type)).slice(0,6);
     list.sort((a,b)=>Number(normalize(b.title)===q)-Number(normalize(a.title)===q));
     const exact=q&&list.length;const visible=list.slice(0,40);
-    $('#search-results').innerHTML=(q?`<p class="result-count">找到 ${list.length} 個條目${list.length>40?'，先顯示前 40 筆':''}</p>`:'<p class="result-count">常用條目</p>')+(visible.length?visible.map(e=>`<a class="search-result" href="#${e.type==='character'?'character/'+e.en.toLowerCase():e.type==='connections'?'creation/connections':'entry/'+e.id}" ${e.type==='glossary'?`data-term="${e.id}" aria-haspopup="dialog"`:''}><span class="result-type">${types[e.type]}</span><strong>${esc(e.title.replace('〔負面〕',''))}</strong><span class="card-en">${esc(e.en||'')}</span><p>${esc(e.body.replace(/\n/g,' ').slice(0,100))}…</p></a>`).join(''):empty('找不到相關內容','請試試中文名稱、英文名稱，或效果中的關鍵字。'));
+    $('#search-results').innerHTML=(q?`<p class="result-count">找到 ${list.length} 個條目${list.length>40?'，先顯示前 40 筆':''}</p>`:'<p class="result-count">常用條目</p>')+(visible.length?visible.map(e=>`<a class="search-result" href="#${e.type==='character'?'character/'+e.en.toLowerCase():e.type==='connections'?'creation/connections':e.type==='faction'?'factions/'+slug(e.en):'entry/'+e.id}" ${['glossary','risks'].includes(e.type)?`data-term="${e.id}" aria-haspopup="dialog"`:''}><span class="result-type">${types[e.type]}</span><strong>${esc(e.title.replace('〔負面〕',''))}</strong><span class="card-en">${esc(e.en||'')}</span><p>${esc(e.body.replace(/\n/g,' ').slice(0,100))}…</p></a>`).join(''):empty('找不到相關內容','請試試中文名稱、英文名稱，或效果中的關鍵字。'));
   }
   document.addEventListener('click',async event=>{
     const target=event.target.closest('button,a');if(!target)return;

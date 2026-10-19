@@ -55,3 +55,24 @@ h3,h4,strong,summary{font-weight:600}
 .term-dialog{width:min(650px,calc(100vw - 24px));max-width:calc(100vw - 24px)}
 .desktop-nav,.sidebar>a span,.notice{font-size:15px}
 .detail-dialog .reference-card .card-body{font-size:17px}
+.home-warning{border:2px solid var(--red);border-left-width:7px;background:var(--red-light);padding:18px 22px;margin-bottom:26px;border-radius:8px;color:#743b2c;font-size:18px;line-height:1.8}
+.home-warning p{margin:0}.home-warning p+p{margin-top:7px}
+.home-introduction{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:30px;margin-bottom:35px;font-size:18px;line-height:1.95}
+.home-introduction h2{font-size:28px;margin-bottom:18px}
+.intro-quotes{border-left:3px solid var(--gold);padding-left:20px;margin:22px 0;color:var(--forest)}
+.intro-quotes blockquote{margin:10px 0;font-size:21px;font-weight:600}
+.brand>span{font-size:25px;letter-spacing:1px}
+.card-bottom{justify-content:flex-start;flex-wrap:wrap;gap:10px}
+.card-bottom .copy-button{width:auto;height:auto;border:0;padding:5px 0;background:none;font:600 15px var(--body);color:var(--forest);margin-right:auto;flex-shrink:0;text-align:left}
+.card-bottom>span:empty{display:none}
+.card-bottom>span{margin-left:auto}
+.faction-jumps{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}
+.faction-jumps a{border:1px solid var(--line);border-radius:30px;padding:6px 17px;background:var(--white);font-size:17px}
+.faction-jumps a:hover{background:var(--forest-light)}
+.faction-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-bottom:30px;align-items:start}
+.faction-card{border:1px solid var(--line);border-top:5px solid var(--gold);border-radius:10px;background:var(--white);padding:28px;scroll-margin-top:105px;font-size:18px;line-height:1.85}
+.faction-card h2{font-size:30px}.faction-card h3{font-size:20px;margin:22px 0 8px;color:var(--forest)}
+.faction-card .card-en{margin:8px 0 20px}
+.faction-hook{padding:15px;background:var(--forest-light);border-radius:8px;margin:23px 0;font-size:17px}
+.faction-1,.faction-5{border-top-color:#5b7c98}.faction-2,.faction-7{border-top-color:#7e9560}.faction-3,.faction-6{border-top-color:#9a7e67}.faction-4{border-top-color:#6b9c9a}
+@media(max-width:760px){.faction-grid{grid-template-columns:minmax(0,1fr)}.faction-card{padding:22px}.home-warning{font-size:17px;padding:14px 16px}.home-introduction{padding:22px 19px;font-size:17px}.intro-quotes{padding-left:13px}.intro-quotes blockquote{font-size:19px}.brand>span{font-size:23px}.card-bottom .copy-button{font-size:15px}.faction-jumps a{padding:5px 13px}}

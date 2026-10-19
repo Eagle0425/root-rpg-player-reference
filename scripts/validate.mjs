@@ -21,6 +21,11 @@ for (const key of ['Travel Through the Forest','Travel Along the Path',...data.g
   assert.ok(data.explanations[key]?.sections.length, `Missing supporting explanation: ${key}`);
 }
 assert.equal(Object.keys(data.explanations).length,39);
+assert.equal(data.factions.length,8);
+assert.deepEqual(Array.from(data.factions.slice(4),f=>f.title),['河岸商會','陰謀羽黨','鼴鼠地國','蜥蜴神教']);
+for (const faction of data.factions) {
+  for (const key of ['title','en','overview','goal','tension','vagabonds','hook','pages','source']) assert.ok(faction[key],`Faction ${faction.title}: ${key}`);
+}
 for (const book of data.books) {
   assert.ok(existsSync(new URL(`site/${book.portrait}`,root)),book.portrait);
   assert.equal(book.stats.length,5);
