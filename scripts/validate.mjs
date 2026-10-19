@@ -7,7 +7,21 @@ const context = {window:{}};
 vm.runInNewContext(source, context);
 const data = context.window.ROOT_DATA;
 const canonical = JSON.parse(readFileSync(new URL('scripts/reference.json', root), 'utf8'));
+for (const key of ['gm','gm_stuck','npc_tracks','mobs','npc_attacks','npc_drives']) delete canonical[key];
 assert.equal(JSON.stringify(data), JSON.stringify(canonical), 'reference.json and data.js must match');
+assert.equal(data.gm,undefined,'Player payload must not contain the GM appendix');
+const gmContext={window:{}};
+vm.runInNewContext(readFileSync(new URL('site/gm-data.js',root),'utf8'),gmContext);
+const gm=gmContext.window.ROOT_GM_DATA;
+assert.equal(JSON.stringify(gm),JSON.stringify(JSON.parse(readFileSync(new URL('scripts/gm-reference.json',root),'utf8'))));
+assert.ok(gm.entries.length>=85);
+assert.equal(new Set(gm.entries.map(e=>e.id)).size,gm.entries.length);
+for (const e of gm.entries) {
+  assert.ok(gm.sections.some(s=>s.id===e.section),e.id);
+  assert.ok(gm.books[e.source.book]&&e.source.pages,e.id);
+  for (const t of e.tables) for (const row of t.rows) assert.equal(row.length,t.headers.length,e.id+' table column count');
+}
+for (const f of ['gm.html','gm.js','gm.css']) assert.ok(existsSync(new URL('site/'+f,root)),f);
 for (const [key,count] of Object.entries({basic:9,weapons:13,reputation:6,feats:9,risks:8,tags:45,premade:6,books:19,names:104,connections:6,creation:12,sessions:2})) {
   assert.equal(data[key].length,count,`${key} count`);
 }
@@ -25,6 +39,7 @@ assert.equal(data.factions.length,8);
 assert.deepEqual(Array.from(data.factions.slice(4),f=>f.title),['河岸商會','陰謀羽黨','鼴鼠地國','蜥蜴神教']);
 for (const faction of data.factions) {
   for (const key of ['title','en','overview','goal','tension','vagabonds','hook','pages','source']) assert.ok(faction[key],`Faction ${faction.title}: ${key}`);
+  assert.ok(existsSync(new URL('site/'+faction.image,root)),faction.title+' image');
 }
 for (const book of data.books) {
   assert.ok(existsSync(new URL(`site/${book.portrait}`,root)),book.portrait);

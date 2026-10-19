@@ -4152,7 +4152,7 @@
       "set": "旅人與外來者"
     }
   ],
-  "version": "2026.10.19.4.1",
+  "version": "2026.10.19.5",
   "downloads": [
     {
       "file": "root-player-reference-zh.pdf",
@@ -4720,7 +4720,11 @@
       "hook": "遊玩切入例：工坊能提供村民工作，但建材來自居民賴以維生的林地；你們要護送木材，還是幫忙阻止砍伐？",
       "pages": "21",
       "source": "核心規則書",
-      "group": "核心設定"
+      "group": "核心設定",
+      "image": "assets/factions/marquisate.webp",
+      "image_page": "21",
+      "image_alt": "貓咪貴族：規則書原始陣營插圖",
+      "image_credit": "原繪 Kyle Ferrin · © Leder Games / Magpie Games"
     },
     {
       "title": "飛鷹王朝",
@@ -4733,7 +4737,11 @@
       "hook": "遊玩切入例：一位鳥類領主承諾保護村莊，條件是居民重新宣誓效忠；另一位繼承人卻要求你們竊走他的印信。",
       "pages": "21",
       "source": "核心規則書",
-      "group": "核心設定"
+      "group": "核心設定",
+      "image": "assets/factions/eyrie.webp",
+      "image_page": "21",
+      "image_alt": "飛鷹王朝：規則書原始陣營插圖",
+      "image_credit": "原繪 Kyle Ferrin · © Leder Games / Magpie Games"
     },
     {
       "title": "森林聯盟",
@@ -4746,7 +4754,11 @@
       "hook": "遊玩切入例：摧毀軍需倉庫能削弱駐軍，但旁邊就是居民的糧倉；聯盟的聯絡人堅稱沒有時間另想辦法。",
       "pages": "22",
       "source": "核心規則書",
-      "group": "核心設定"
+      "group": "核心設定",
+      "image": "assets/factions/alliance.webp",
+      "image_page": "22",
+      "image_alt": "森林聯盟：規則書原始陣營插圖",
+      "image_credit": "原繪 Kyle Ferrin · © Leder Games / Magpie Games"
     },
     {
       "title": "茂林居民",
@@ -4759,7 +4771,11 @@
       "hook": "遊玩切入例：村民願意付出僅剩的補給，請你們找回失蹤的運糧車；調查後卻發現車夫正在替另一座缺糧村莊求援。",
       "pages": "22",
       "source": "核心規則書",
-      "group": "核心設定"
+      "group": "核心設定",
+      "image": "assets/factions/denizens.webp",
+      "image_page": "22",
+      "image_alt": "茂林居民：規則書原始陣營插圖",
+      "image_credit": "原繪 Kyle Ferrin · © Leder Games / Magpie Games"
     },
     {
       "title": "河岸商會",
@@ -4772,7 +4788,11 @@
       "hook": "遊玩切入例：商會願意運送救命糧食，卻要求村莊接受長期獨家供貨；你們能找到其他航路，或談出居民負擔得起的條件嗎？",
       "pages": "9–11",
       "source": "《旅者與外來者》",
-      "group": "擴充設定"
+      "group": "擴充設定",
+      "image": "assets/factions/riverfolk.webp",
+      "image_page": "10",
+      "image_alt": "河岸商會：規則書原始陣營插圖",
+      "image_credit": "原繪 Kyle Ferrin · © Leder Games / Magpie Games"
     },
     {
       "title": "陰謀羽黨",
@@ -4785,7 +4805,11 @@
       "hook": "遊玩切入例：一份看似普通的護送委託，其實要讓你們帶著假情報被捕；接頭人聲稱這能保護整個地下互助網路。",
       "pages": "19–22",
       "source": "《旅者與外來者》",
-      "group": "擴充設定"
+      "group": "擴充設定",
+      "image": "assets/factions/corvid.webp",
+      "image_page": "20",
+      "image_alt": "陰謀羽黨：規則書原始陣營插圖",
+      "image_credit": "原繪 Kyle Ferrin · © Leder Games / Magpie Games"
     },
     {
       "title": "鼴鼠地國",
@@ -4798,7 +4822,11 @@
       "hook": "遊玩切入例：一條能解救受困村莊的隧道只差最後一段，但兩位部長都要求先拿到工程功勞，才願意簽署物資核准。",
       "pages": "16–18",
       "source": "《旅者與外來者》",
-      "group": "擴充設定"
+      "group": "擴充設定",
+      "image": "assets/factions/duchy.webp",
+      "image_page": "17",
+      "image_alt": "鼴鼠地國：規則書原始陣營插圖",
+      "image_credit": "原繪 Kyle Ferrin · © Leder Games / Magpie Games"
     },
     {
       "title": "蜥蜴神教",
@@ -4811,7 +4839,11 @@
       "hook": "遊玩切入例：花園接納戰爭難民並提供療傷，但當地傳教者要求村莊放棄原有祭典；居民請你們協調，強硬的信徒卻不願退讓。",
       "pages": "12–15",
       "source": "《旅者與外來者》",
-      "group": "擴充設定"
+      "group": "擴充設定",
+      "image": "assets/factions/lizards.webp",
+      "image_page": "13",
+      "image_alt": "蜥蜴神教：規則書原始陣營插圖",
+      "image_credit": "原繪 Kyle Ferrin · © Leder Games / Magpie Games"
     }
   ]
 }

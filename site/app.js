@@ -24,7 +24,6 @@
   D.creation.forEach(([title,body],i) => add('creation',{title:title.replace(/^\d+\s*/,''),en:`Character Creation ${i+1}`,body},{step:i+1}));
   D.sessions.forEach((item,i) => add('session',item,{key:`session-${i}`}));
   const growth = add('session',{title:'取得成長',en:'Advancement',body:D.growth_intro});
-  ['agendas','principles','moves'].forEach(group => D.gm[group].forEach(([title,body],i) => add('gm',{title,en:`GM ${group} ${i+1}`,body},{group})));
   const featOrder = ['雜技','暗算','偽造','拆除裝置','隱藏','扒竊','潛行','開鎖','巧手'];
   const skillOrder = ['劈開護甲','迷惑感官','解除武裝','擾亂團體','製作武器','招架','快速射擊','突襲團體','技巧射擊','兇惡打擊'];
   D.books.forEach(book => {
@@ -32,6 +31,7 @@
     book.moves.forEach((move,i) => add('characterMove',{title:move.title,en:`${book.en} Move ${i+1}`,body:move.body},{role:book.zh,roleEn:book.en,required:book.required.includes(i)}));
   });
   const byId = new Map(entries.map(entry => [entry.id,entry]));
+  favorites=new Set([...favorites].filter(id=>byId.has(id)));
   const byTitle = new Map(entries.filter(e => ['basic','weapons','glossary','connections'].includes(e.type)).map(e => [e.title,e]));
   const view = $('#view'); let currentFilter = ''; let currentQuery = ''; let lastRoute = ''; let toastTimer;
   function toast(message) { const el=$('#toast');el.textContent=message;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2200); }
@@ -117,8 +117,7 @@
   }
   function renderCreation() {return heading('建立你的旅人','CHARACTER CREATION','依序完成 12 步；個別扮演書的特殊指示優先。')+`<div class="step-list">${D.creation.map(([title,body],i)=>`<section class="step-card" id="creation-step-${i+1}"><span class="step-number">${i+1}</span><div><h2>${esc(title.replace(/^\d+\s*/,''))}</h2><div class="card-body">${rich(body)}</div>${i===0?'<a class="text-link" href="#characters">選擇扮演書 ↗</a>':i===1?creationReference('names'):i===11?creationReference('connections'):i===9?'<a class="text-link" href="#equipment">建立與挑選裝備 ↗</a>':''}</div></section>`).join('')}</div>`;}
   function renderSession() {return heading('角色成長','ADVANCEMENT & SESSION MOVES','讓角色追逐自己的願望，也隨故事改變。')+`<div class="notice">${esc(D.growth_intro)}</div>${table(['每次選一項成長','上限與計算方式'],D.advances)}<div class="heading-row"><h2>聚會結束</h2></div><div class="cards-grid">${entries.filter(e=>e.type==='session'&&e.id!==growth.id).map(e=>card(e)).join('')}</div>`;}
-  function renderFactions() {return heading('陣營介紹','FACTIONS OF THE WOODLAND','權力、反抗與日常生存，交織成遊俠冒險的舞台。')+`<div class="notice">陣營不等於動物種族，也沒有整個陣營必然善良或邪惡。個別成員的立場與手段各有不同；遊俠通常不隸屬任何掌權者，卻會透過每次工作影響力量的平衡。四個擴充陣營不必全部同時加入，每桌可共同決定哪些勢力在本次故事中扮演重要角色。</div><nav class="faction-jumps" aria-label="陣營導覽">${D.factions.map(f=>`<a href="#factions/${slug(f.en)}">${esc(f.title)}</a>`).join('')}</nav><div class="faction-grid">${D.factions.map((f,i)=>`<article class="faction-card faction-${i}" id="faction-${slug(f.en)}"><span class="eyebrow">${esc(f.group)} · ${esc(f.motif)}</span><h2>${esc(f.title)}</h2><p class="card-en">${esc(f.en)}</p><p>${esc(f.overview)}</p>${[['他們想要什麼',f.goal],['矛盾與代價',f.tension],['遊俠與他們的關係',f.vagabonds]].map(([title,body])=>`<h3>${title}</h3><p>${esc(body)}</p>`).join('')}<aside class="faction-hook">${esc(f.hook)}</aside><p class="section-note">設定參考：${esc(f.source)}，書內第 ${f.pages} 頁。遊玩切入例為本站整理。</p></article>`).join('')}</div><div class="notice">與各陣營的名聲分別記錄。需要藉名聲取得人情、調度資源或影響 NPC 時，查看 <a class="text-link" href="#moves/reputation">名聲動作</a>。</div>`;}
-  function renderGm() {const groups=[['agendas','你的目標'],['principles','你的原則'],['moves','你的動作']];return heading('GM 參考附錄','GM REFERENCE','以目標決定方向，以原則帶領，以動作推進局勢。')+`<div class="notice">玩家擲出失敗、行動或忽略危險造成明顯機會，或場面停滯時，可使用 GM 動作。軟動作預告危險、留下反應機會；硬動作直接落實後果。</div>`+groups.map(([key,title])=>`<div class="heading-row"><h2>${title}</h2></div><div class="cards-grid">${entries.filter(e=>e.type==='gm'&&e.group===key).map(e=>card(e)).join('')}</div>`).join('')+`<div class="heading-row"><h2>卡住時</h2></div><div class="cards-grid">${D.gm_stuck.map(v=>`<section class="reference-card"><h3>${v.title}</h3><span class="card-en">${v.en}</span><div class="card-body">${rich(v.body)}</div></section>`).join('')}</div><div class="heading-row"><h2>NPC 與傷害</h2></div><div class="notice">建立 NPC 時，給予名字、含種族的描述、工作與動機。真正交戰或須標記傷害時，再設定傷害軌與攻擊。單一 NPC 各軌 1–5 格。</div>${table(['NPC 範例','創傷','疲勞','磨損','士氣'],D.npc_tracks)}${table(['群體','人數','各傷害軌','傷害'],D.mobs)}${table(['攻擊／武器','傷害'],D.npc_attacks)}<p class="section-note">動機靈感：${D.npc_drives}</p>`;}
+  function renderFactions() {return heading('陣營介紹','FACTIONS OF THE WOODLAND','權力、反抗與日常生存，交織成遊俠冒險的舞台。')+`<div class="notice">陣營不等於動物種族，也沒有整個陣營必然善良或邪惡。個別成員的立場與手段各有不同；遊俠通常不隸屬任何掌權者，卻會透過每次工作影響力量的平衡。四個擴充陣營不必全部同時加入，每桌可共同決定哪些勢力在本次故事中扮演重要角色。</div><nav class="faction-jumps" aria-label="陣營導覽">${D.factions.map(f=>`<a href="#factions/${slug(f.en)}">${esc(f.title)}</a>`).join('')}</nav><div class="faction-grid">${D.factions.map((f,i)=>`<article class="faction-card faction-${i}" id="faction-${slug(f.en)}"><span class="eyebrow">${esc(f.group)} · ${esc(f.motif)}</span><h2>${esc(f.title)}</h2><p class="card-en">${esc(f.en)}</p><figure class="faction-figure"><button class="faction-image-button" data-faction-art="${i}" aria-label="放大${esc(f.title)}的規則書插圖"><img src="${esc(f.image)}" alt="${esc(f.image_alt)}" loading="lazy"></button><figcaption>${esc(f.source)} · 書內第 ${esc(f.image_page)} 頁<br>${esc(f.image_credit)} · 點擊圖片放大</figcaption></figure><p>${esc(f.overview)}</p>${[['他們想要什麼',f.goal],['矛盾與代價',f.tension],['遊俠與他們的關係',f.vagabonds]].map(([title,body])=>`<h3>${title}</h3><p>${esc(body)}</p>`).join('')}<aside class="faction-hook">${esc(f.hook)}</aside><p class="section-note">設定參考：${esc(f.source)}，書內第 ${f.pages} 頁。遊玩切入例為本站整理。</p></article>`).join('')}</div><div class="notice">與各陣營的名聲分別記錄。需要藉名聲取得人情、調度資源或影響 NPC 時，查看 <a class="text-link" href="#moves/reputation">名聲動作</a>。</div>`;}
   function renderDownloads() {return heading('帶上你的手冊','PDF DOWNLOADS','離線查閱、列印上桌，或直接在電腦填寫中文角色卡。')+`<div class="download-grid">${D.downloads.map(d=>`<article class="download-card"><div class="file-icon">PDF</div><h2>${d.label}</h2><p>${d.description}</p><small>A4 · 繁體中文 · ${d.size} MB</small><a class="button" href="downloads/${d.file}" download>下載 PDF ↓</a></article>`).join('')}</div><div class="notice" style="margin-top:25px">可填寫版請使用支援 PDF 表單的閱讀器開啟，輸入或勾選後另存。網站內的收藏儲存在這台裝置的瀏覽器中。</div>`;}
   function renderAbout() {return heading('關於這份手冊','ABOUT THIS FIELD GUIDE')+`<article class="about-content"><p>這是一份供桌上遊戲查閱的非官方繁體中文整理，以目前校訂的玩家參考資料與 19 種中文角色卡為基礎。網站提供分類、搜尋及收藏；完整規則仍以正式出版品為準。</p><h2>整理與翻譯參考</h2><p>Root-Playbooks-PrintFriendly-20220228.pdf、Root-TO-Playbooks-Jan2022-PrintFriendly.pdf、RootTTPRG_Corebook_100721.pdf，以及既有中文 Root Move、Root Playbook、試算表與全文資料庫。既有翻譯參考 Mori、空空、阿羊。</p><p>亦參考 <a href="https://ps-cheng.github.io/root-rpg-zh/" target="_blank" rel="noopener noreferrer">茂林源記：中文網站 ↗</a>；與英文規則衝突的條目已按本次校訂文字整理。</p><h2>權利與圖片</h2><p>Root 與角色原繪 © Leder Games；遊戲文字與設計 © Magpie Games；角色原繪 Kyle Ferrin。上述權利屬原權利人所有。網站整理與中文音譯不代表官方版本。</p><h2>字體</h2><p>使用先前角色卡採用的清松手寫體：大標為 1 SemiBold、區塊標題為 1 Medium、重點為 2 SemiBold、內文與輔助資訊為 2 Regular。網站使用縮減字元並重新命名的網頁字體子集，來源為 max32002 / JasonHandWritingFonts；依 <a href="assets/fonts/OFL.txt">SIL Open Font License 1.1</a> 提供。</p><h2>收藏與閱讀</h2><p>不需帳號即可查閱。收藏僅儲存在你目前的瀏覽器，不會上傳到伺服器；清除瀏覽資料後會一併移除。頁面未使用追蹤或外部字體服務。</p><p>內容版本：${D.version}。PDF 下載與網站內容分別保留適合列印及手機閱讀的版面。</p></article>`;}
   function updateLocalResults() {
@@ -136,6 +135,8 @@
     const equipmentSwitch=lastRoute==='equipment'&&route==='equipment';
     const filterTop=equipmentSwitch?view.querySelector('.equipment-tags .section-tools')?.getBoundingClientRect().top:null;
     const examplesOpen=equipmentSwitch&&!!view.querySelector('#equipment-examples[open]');
+    if(route==='gm'){location.replace('gm.html#'+(sub||'home'));return;}
+    if(route==='entry'&&sub.startsWith('gm-gm-')){const m=sub.match(/^gm-gm-(agendas|principles|moves)-(\d+)$/);if(m){location.replace('gm.html#entry/'+({agendas:'agenda',principles:'principle',moves:'move'}[m[1]])+'-'+m[2]);return;}}
     if(route==='connections'){location.replace('#creation/connections');return;}
     if(route==='glossary'){location.replace('#moves/basic');return;}
     if(lastRoute!==route || (['moves','equipment'].includes(route)&&sub!==currentFilter)) {currentQuery='';currentFilter=sub||'all';}
@@ -151,7 +152,6 @@
     else if(route==='creation')view.innerHTML=renderCreation();
     else if(route==='session')view.innerHTML=renderSession();
     else if(route==='favorites')view.innerHTML=heading('我的收藏','YOUR FIELD NOTES','常用的動作與標籤，收在同一處。收藏僅儲存在這台裝置。')+(favorites.size?entryList(entries.filter(e=>favorites.has(e.id))):empty('手冊裡留個記號','點選條目旁的 ☆，把常用的規則收在這裡。'));
-    else if(route==='gm')view.innerHTML=renderGm();
     else if(route==='downloads')view.innerHTML=renderDownloads();
     else if(route==='about')view.innerHTML=renderAbout();
     else if(route==='entry') {const e=byId.get(sub);active=e?.type==='tags'||e?.type==='premade'?'equipment':'moves';view.innerHTML=e?`<p><a class="text-link" href="#${active}">← 返回${active==='moves'?'動作':'裝備'}列表</a></p>`+heading(e.title.replace('〔負面〕',''),e.en||'REFERENCE')+(e.type==='character'?renderCharacter(e.book):e.type==='travel'?renderTravel():card(e,true)):empty('找不到這個條目','請用搜尋找找其他關鍵字。');}
@@ -206,6 +206,8 @@
   }
   document.addEventListener('click',async event=>{
     const target=event.target.closest('button,a');if(!target)return;
+    if(target.dataset.factionArt!==undefined){const f=D.factions[Number(target.dataset.factionArt)];$('#art-content').innerHTML=`<h2 id="art-title">${esc(f.title)}</h2><img src="${esc(f.image)}" alt="${esc(f.image_alt)}"><p>${esc(f.source)} · 書內第 ${esc(f.image_page)} 頁<br>${esc(f.image_credit)}</p>`;$('#art-dialog').showModal();}
+    if(target.dataset.action==='close-art')$('#art-dialog').close();
     if(target.dataset.action==='search')openSearch();
     if(target.dataset.action==='menu')$('#nav-dialog').showModal();
     if(target.dataset.action==='close-detail')$('#detail-dialog').close();
@@ -224,7 +226,7 @@
   });
   document.addEventListener('input',event=>{if(event.target.id==='name-filter')$('#name-results').innerHTML=nameList(event.target.value);if(event.target.id==='global-search')search(event.target.value);if(event.target.id==='local-filter'){currentQuery=event.target.value;updateLocalResults();}});
   document.addEventListener('keydown',event=>{if(event.key==='/'&&!/input|textarea|select/i.test(document.activeElement.tagName)&&!$('#detail-dialog').open){event.preventDefault();openSearch();}});
-  ['search-dialog','detail-dialog','term-dialog'].forEach(id=>{$('#'+id).addEventListener('click',event=>{if(event.target===$('#'+id)){const r=event.target.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)event.target.close();}});});
+  ['search-dialog','detail-dialog','term-dialog','art-dialog'].forEach(id=>{$('#'+id).addEventListener('click',event=>{if(event.target===$('#'+id)){const r=event.target.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)event.target.close();}});});
   window.addEventListener('hashchange',render);render();
   window.ROOT_REFERENCE_DEBUG={entries:entries.length,categories:Object.fromEntries(Object.keys(types).map(type=>[type,entries.filter(e=>e.type===type).length]))};
 })();

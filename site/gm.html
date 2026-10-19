@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#293d3a"><meta name="robots" content="noindex">
+  <title>GM 工作台 · 茂林源記TRPG</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="gm.css">
+  <script src="gm-data.js" defer></script><script src="gm.js" defer></script>
+</head>
+<body class="gm-workshop">
+  <a class="skip-link" href="#gm-main">跳到主持人資料</a>
+  <header class="gm-header"><a href="index.html#home" class="gm-back">← 玩家手冊</a><a href="#home" class="gm-brand">茂林源記TRPG <span>GM 工作台</span></a><a href="#favorites" class="gm-favorites-link">我的釘選 <span id="gm-favorite-count">0</span></a></header>
+  <div class="gm-layout"><aside class="gm-sidebar"><details class="gm-directory" open><summary>主持人工具目錄</summary><nav id="gm-nav" aria-label="GM 資料分類"></nav><p class="gm-side-note">玩家資料與 GM 資料分開查閱。這是公開網站的閱讀分區，沒有密碼或權限限制。</p><a href="index.html#downloads">下載既有 PDF</a></details></aside>
+  <main id="gm-main" tabindex="-1"><header id="gm-heading"></header><nav class="gm-quick" aria-label="常用快速連結"><a href="#agendas">目標</a><a href="#principles">原則</a><a href="#moves">動作</a><a href="#stuck">卡住時</a><a href="#npc">NPC 與傷害</a></nav>
+    <section class="gm-search-tools" aria-label="搜尋與篩選"><label class="gm-query"><span>搜尋整個 GM 資料庫</span><input id="gm-search" type="search" placeholder="試試：群體、恢復、陣營擲骰、起義…" autocomplete="off"></label><label><span>規則來源</span><select id="gm-source"><option value="all">所有來源</option><option value="core">核心規則書</option><option value="exp">旅者與外來者</option></select></label><label><span>內容形式</span><select id="gm-kind"><option value="all">全部內容</option><option value="table">含速查表</option><option value="rules">規則裁定</option><option value="guide">主持說明</option><option value="tool">整理工具</option></select></label></section>
+    <div id="gm-content" aria-live="polite"></div>
+  </main></div>
+  <footer class="gm-footer">非官方遊玩參考 · Root © Leder Games · 遊戲文字與設計 © Magpie Games · 原繪 Kyle Ferrin。書內頁碼與 PDF 閱讀器頁次不同；核心及本次擴充 PDF 頁次均多 1 頁。</footer>
+  <dialog id="gm-dialog" class="detail-dialog" aria-labelledby="gm-dialog-title"><button class="detail-close icon-button" data-gm-close aria-label="關閉資料">×</button><div id="gm-dialog-content"></div></dialog>
+  <div id="gm-toast" role="status"></div>
+</body>
+</html>
