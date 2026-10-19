@@ -12,6 +12,15 @@ for (const [key,count] of Object.entries({basic:9,weapons:13,reputation:6,feats:
   assert.equal(data[key].length,count,`${key} count`);
 }
 assert.equal(data.tags.filter(tag=>tag.title.includes('〔負面〕')).length,10);
+for (const item of [...data.basic,...data.weapons,...data.reputation]) {
+  const note=data.explanations[item.en];
+  assert.ok(note?.pages && note.sections.length, `Missing explanation: ${item.en}`);
+  for (const section of note.sections) assert.ok(section.title && section.body, item.en);
+}
+for (const key of ['Travel Through the Forest','Travel Along the Path',...data.glossary.map(row=>row[1]),'Equipment']) {
+  assert.ok(data.explanations[key]?.sections.length, `Missing supporting explanation: ${key}`);
+}
+assert.equal(Object.keys(data.explanations).length,39);
 for (const book of data.books) {
   assert.ok(existsSync(new URL(`site/${book.portrait}`,root)),book.portrait);
   assert.equal(book.stats.length,5);

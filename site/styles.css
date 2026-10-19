@@ -8,3 +8,15 @@
 @media print{.site-header,.sidebar,.site-footer,.mobile-nav,.favorite-button,.copy-button,.section-tools,.hero,.hero-search,.toast{display:none!important}.layout{display:block}main{padding:0;max-width:none}.reference-card,.step-card{break-inside:avoid;background:white;box-shadow:none}.cards-grid{grid-template-columns:1fr 1fr}body{background:white;font-size:11pt}dialog[open]{position:static;max-width:none;max-height:none;box-shadow:none;overflow:visible}.detail-close{display:none}body:has(dialog[open]) .layout{display:none}}
 
 .menu-list{padding:0 20px 20px;display:grid;grid-template-columns:1fr 1fr;gap:8px}.menu-list a{padding:13px 12px;background:var(--forest-light);border-radius:5px;font-size:13px}.menu-list a:hover{background:var(--gold-light)}
+/* Optional rules commentary keeps the quick-reference text compact. */
+.entry-explanation { margin-top: 18px; border-top: 1px solid #d9d9ca; padding-top: 12px; }
+.entry-explanation summary { cursor: pointer; color: #365447; font-weight: 700; padding: 6px 0; line-height: 1.6; }
+.entry-explanation summary:focus-visible { outline: 2px solid #957231; outline-offset: 4px; }
+.explanation-content { font-size: 15px; line-height: 1.85; padding-top: 8px; overflow-wrap: anywhere; }
+.explanation-content section + section { margin-top: 18px; }
+.explanation-content h4 { font-size: 15px; margin: 0 0 5px; color: #365447; }
+.explanation-content p { margin: 0 0 8px; }
+.explanation-content .explanation-source { font-size: 12px; color: #6b7168; border-top: 1px dashed #d9d9ca; padding-top: 12px; margin-top: 18px; }
+.cards-grid { align-items: start; }
+.travel-grid { grid-template-columns: minmax(0, 1fr); }
+.travel-grid > section { min-width: 0; }

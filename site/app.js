@@ -11,8 +11,8 @@
   try { favorites = new Set(JSON.parse(localStorage.getItem('root-rpg-favorites-v1') || '[]')); } catch (_) { /* Storage is optional. */ }
   const entries = [];
   function add(type, item, extra = {}) {
-    const entry = {...item, ...extra, type, id: `${type}-${slug(item.en || extra.key || entries.length)}`};
-    entry.search = normalize(`${entry.title} ${entry.en || ''} ${entry.body} ${types[type]}`);
+    const entry = {...item, ...extra, explanation:D.explanations?.[item.en], type, id: `${type}-${slug(item.en || extra.key || entries.length)}`};
+    entry.search = normalize(`${entry.title} ${entry.en || ''} ${entry.body} ${JSON.stringify(entry.explanation?.sections || [])} ${types[type]}`);
     entries.push(entry); return entry;
   }
   ['basic','weapons','reputation','risks','tags','premade','connections'].forEach(type => D[type].forEach(item => add(type,item)));
@@ -51,10 +51,14 @@
     }).join('');
   }
   function star(entry) { return `<button class="favorite-button ${favorites.has(entry.id)?'saved':''}" data-favorite="${entry.id}" aria-pressed="${favorites.has(entry.id)}" aria-label="${favorites.has(entry.id)?'取消收藏':'收藏'}${esc(entry.title)}">${favorites.has(entry.id)?'★':'☆'}</button>`; }
+  function explanation(entry, open=false) {
+    const note=entry.explanation;if(!note)return '';
+    return `<details class="entry-explanation" ${open?'open':''}><summary>詳細說明與判定提示</summary><div class="explanation-content">${note.sections.map(s=>`<section><h4>${esc(s.title)}</h4>${rich(s.body)}</section>`).join('')}<p class="explanation-source">參考：核心規則書，書內第 ${esc(note.pages)} 頁（PDF 頁次多 1 頁）。${entry.type==='basic'?'另核對 <a href="https://ps-cheng.github.io/root-rpg-zh/move/the-basic-moves/" target="_blank" rel="noopener noreferrer">中文基本動作 ↗</a>。':''}</p></div></details>`;
+  }
   function card(entry, standalone=false) {
     const negative=entry.type==='tags'&&entry.title.includes('〔負面〕');const title=entry.title.replace('〔負面〕','');
     const special=entry.type==='weapons'&&entry.body.startsWith('【特殊】');
-    return `<article class="reference-card ${negative?'negative':''}" id="${entry.id}"><div class="card-top"><div><span class="card-category">${esc(entry.role || types[entry.type])}</span><h3>${esc(title)}${special?'<span class="badge">特殊</span>':''}${negative?'<span class="badge negative">負面</span>':''}</h3><span class="card-en">${esc(entry.en || '')}</span></div><div class="card-actions">${star(entry)}</div></div><div class="card-body">${rich(special?entry.body.slice(4):entry.body)}</div><div class="card-bottom"><span>${entry.required?'起始已取得':negative?'建立成本返還 1 價值':entry.type==='tags'?'建立成本增加 1 價值':entry.type==='characterMove'?'角色專屬動作':'依故事情境觸發'}</span><button class="copy-button" data-copy="${entry.id}" aria-label="複製${esc(title)}連結">↗</button>${standalone?'':`<button class="text-link icon-button" style="font-size:11px" data-detail="${entry.id}">放大閱讀</button>`}</div></article>`;
+    return `<article class="reference-card ${negative?'negative':''}" id="${entry.id}"><div class="card-top"><div><span class="card-category">${esc(entry.role || types[entry.type])}</span><h3>${esc(title)}${special?'<span class="badge">特殊</span>':''}${negative?'<span class="badge negative">負面</span>':''}</h3><span class="card-en">${esc(entry.en || '')}</span></div><div class="card-actions">${star(entry)}</div></div><div class="card-body">${rich(special?entry.body.slice(4):entry.body)}</div>${explanation(entry,standalone)}<div class="card-bottom"><span>${entry.required?'起始已取得':negative?'建立成本返還 1 價值':entry.type==='tags'?'建立成本增加 1 價值':entry.type==='characterMove'?'角色專屬動作':'依故事情境觸發'}</span><button class="copy-button" data-copy="${entry.id}" aria-label="複製${esc(title)}連結">↗</button>${standalone?'':`<button class="text-link icon-button" style="font-size:11px" data-detail="${entry.id}">放大閱讀</button>`}</div></article>`;
   }
   function heading(title, en, description='') { return `<header class="page-heading"><span class="eyebrow">${esc(en)}</span><h1>${esc(title)}</h1>${description?`<p>${esc(description)}</p>`:''}</header>`; }
   function empty(title,body) {return `<div class="empty-state"><b>${esc(title)}</b>${esc(body)}</div>`;}
@@ -80,13 +84,13 @@
   function renderTravel() {
     const q=normalize(currentQuery);
     const travelCard=(e,rows)=>`<section><h2>${e.title}</h2>${table(['旅行方式','個人效果','全隊共同負擔','擲骰修正'],rows)}${card(e)}</section>`;
-    return '<div class="notice">「全隊共同負擔」可由玩家協商如何分攤，或由一位角色承受全部；「每人」則各自處理。</div><div class="travel-grid">'+[[forest,D.travel_forest],[path,D.travel_path]].filter(([e,rows])=>!q||normalize(e.body+JSON.stringify(rows)).includes(q)).map(([e,rows])=>travelCard(e,rows)).join('')+'</div>';
+    return '<div class="notice">「全隊共同負擔」可由玩家協商如何分攤，或由一位角色承受全部；「每人」則各自處理。</div><div class="travel-grid">'+[[forest,D.travel_forest],[path,D.travel_path]].filter(([e,rows])=>!q||normalize(e.search+JSON.stringify(rows)).includes(q)).map(([e,rows])=>travelCard(e,rows)).join('')+'</div>';
   }
   function renderEquipment() {
     let list=entries.filter(e=>currentFilter==='premade'?e.type==='premade':e.type==='tags');
     if(currentFilter==='positive')list=list.filter(e=>!e.title.includes('〔負面〕'));
     if(currentFilter==='negative')list=list.filter(e=>e.title.includes('〔負面〕'));
-    let intro='';if(currentFilter==='build')intro=`<div class="notice">${esc(D.equipment_intro)}</div>${table(['建立裝備的項目','價值計算'],D.equipment_cost)}<div class="notice">${esc(D.equipment_notes)}</div>`;
+    let intro='';if(currentFilter==='build')intro=`<div class="notice">${esc(D.equipment_intro)}</div>${table(['建立裝備的項目','價值計算'],D.equipment_cost)}<div class="notice">${esc(D.equipment_notes)}</div>${explanation({explanation:D.explanations?.Equipment},true)}`;
     return heading('裝備與標籤','EQUIPMENT','特殊的武器、護甲與重要物品。按正負面分類，或搜尋你需要的效果。')+controls([['all','全部標籤'],['positive','正面 35'],['negative','負面 10'],['premade','範例裝備'],['build','建立裝備']], '搜尋標籤或效果…')+(currentFilter==='build'?intro:entryList(filtered(list)));
   }
   function characterCard(book) {return `<a class="character-card" href="#character/${book.en.toLowerCase()}"><span class="portrait-stage"><img src="${book.portrait}" alt="${esc(book.zh)}的角色示意圖" loading="lazy" width="210" height="180"></span><span class="character-info"><strong>${esc(book.zh)}</strong><small>THE ${book.en.toUpperCase()}</small><p>${esc(book.description.slice(0,47))}…</p><span class="role-stats">${D.stats.map(([zh],i)=>`${zh[0]} ${book.stats[i]>=0?'+':''}${book.stats[i]}`).join('　')}</span></span></a>`;}
