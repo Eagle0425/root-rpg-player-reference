@@ -19,7 +19,13 @@ assert.equal(new Set(gm.entries.map(e=>e.id)).size,gm.entries.length);
 for (const e of gm.entries) {
   assert.ok(gm.sections.some(s=>s.id===e.section),e.id);
   assert.ok(gm.books[e.source.book]&&e.source.pages,e.id);
+  assert.ok(e.title&&e.summary&&e.body.trim(),'GM entry needs an actionable explanation: '+e.id);
   for (const t of e.tables) for (const row of t.rows) assert.equal(row.length,t.headers.length,e.id+' table column count');
+}
+assert.equal(gm.workflow.stages.length,6);
+for (const stage of gm.workflow.stages) {
+  const references=[...stage.references,...(stage.branches||[]).flatMap(b=>b.references)];
+  for (const [id] of references) assert.ok(gm.entries.some(e=>e.id===id),'Broken workflow reference: '+id);
 }
 for (const f of ['gm.html','gm.js','gm.css']) assert.ok(existsSync(new URL('site/'+f,root)),f);
 for (const [key,count] of Object.entries({basic:9,weapons:13,reputation:6,feats:9,risks:8,tags:45,premade:6,books:19,names:104,connections:6,creation:12,sessions:2})) {
