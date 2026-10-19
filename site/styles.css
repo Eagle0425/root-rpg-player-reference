@@ -20,3 +20,38 @@
 .cards-grid { align-items: start; }
 .travel-grid { grid-template-columns: minmax(0, 1fr); }
 .travel-grid > section { min-width: 0; }
+@font-face{font-family:'Woodland Title';src:url('assets/fonts/field-title.woff2') format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:'Woodland Section';src:url('assets/fonts/field-section.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:'Woodland Body';src:url('assets/fonts/field-body.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Woodland Body';src:url('assets/fonts/field-emphasis.woff2') format('woff2');font-weight:600 900;font-display:swap}
+:root{--body:'Woodland Body','Microsoft JhengHei',sans-serif;--display:'Woodland Title','Microsoft JhengHei',serif}
+body{font-size:17px;line-height:1.8}
+h1,.brand>span{font-family:'Woodland Title','Microsoft JhengHei',serif;font-weight:600}
+h2,.heading-row h2,.step-card h2,.detail-section h3{font-family:'Woodland Section','Microsoft JhengHei',serif;font-weight:500}
+h3,h4,strong,summary{font-weight:600}
+.card-body,.explanation-content{font-size:17px;line-height:1.85}
+.card-en,.section-note,.micro,.explanation-source{font-size:14px}
+.embedded-reference{border:1px solid var(--line);border-radius:10px;padding:16px 20px;background:var(--white);margin-top:22px;scroll-margin-top:100px}
+.embedded-reference>summary{font-size:19px;color:var(--forest);cursor:pointer;line-height:1.6}
+.embedded-reference[open]>summary{margin-bottom:20px}
+.step-card>div{min-width:0}
+.step-card .cards-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.step-card .card-body{font-size:17px}
+.name-pair{font-size:16px}
+.name-search{display:block;margin:15px 0}
+.name-search input{width:100%}
+.equipment-guide{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:25px}
+.equipment-guide>h2{font-size:28px;margin-bottom:16px}
+.equipment-guide-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
+.equipment-guide-grid>div{min-width:0}
+.equipment-guide table{min-width:0;font-size:16px}
+.equipment-examples{margin-bottom:36px}
+.equipment-tags{margin-top:36px}
+.term-link{color:var(--forest);text-decoration:underline;text-decoration-style:dotted;text-decoration-color:var(--gold);text-underline-offset:4px;border-radius:2px}
+.term-link:hover{background:var(--gold-light);text-decoration-style:solid}
+.term-dialog{max-width:650px}
+.term-dialog h2{font-size:30px;margin-bottom:10px}
+@media(max-width:760px){.equipment-guide-grid{grid-template-columns:minmax(0,1fr);gap:0}.equipment-guide{padding:20px 16px}.embedded-reference{padding:15px 12px}.step-card .cards-grid{grid-template-columns:minmax(0,1fr)}.step-card .reference-card{padding:16px}.embedded-reference>summary{font-size:18px}.name-pair{font-size:14px}.name-grid{grid-template-columns:minmax(0,1fr)}.card-body,.step-card .card-body,.explanation-content{font-size:17px}.explanation-content h4{font-size:17px}.card-en,.section-note{font-size:13px}.name-pair{gap:8px}.equipment-guide table{font-size:15px}}
+.term-dialog{width:min(650px,calc(100vw - 24px));max-width:calc(100vw - 24px)}
+.desktop-nav,.sidebar>a span,.notice{font-size:15px}
+.detail-dialog .reference-card .card-body{font-size:17px}

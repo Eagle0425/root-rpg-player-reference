@@ -29,8 +29,6 @@
       <a href="#characters" data-nav="characters">♧ <span>19 種角色</span></a>
       <a href="#creation" data-nav="creation">✎ <span>建立角色</span></a>
       <a href="#session" data-nav="session">☷ <span>成長與聚會</span></a>
-      <a href="#connections" data-nav="connections">∞ <span>名字與關係</span></a>
-      <a href="#glossary" data-nav="glossary">≡ <span>名詞速查</span></a>
       <div class="nav-divider"></div>
       <a href="#favorites" data-nav="favorites">☆ <span>我的收藏</span><small id="favorite-count">0</small></a>
       <a href="#downloads" data-nav="downloads">↓ <span>PDF 下載</span></a>
@@ -42,9 +40,10 @@
   </div>
   <footer class="site-footer"><span>Root © Leder Games · 遊戲文字與設計 © Magpie Games · 原繪 Kyle Ferrin</span><a href="#about">非官方繁體中文參考整理</a></footer>
   <nav class="mobile-nav" aria-label="手機快速導覽"><a href="#home" data-nav="home"><b>⌂</b>首頁</a><a href="#moves" data-nav="moves"><b>↗</b>動作</a><a href="#equipment" data-nav="equipment"><b>◇</b>裝備</a><a href="#characters" data-nav="characters"><b>♧</b>角色</a><button data-action="menu"><b>☰</b>更多</button></nav>
-  <dialog id="nav-dialog" class="search-dialog"><form method="dialog" class="search-dialog-top"><h2>更多查閱方式</h2><button class="icon-button" aria-label="關閉導覽">×</button></form><nav class="menu-list" aria-label="其他頁面"><a href="#creation">✎　建立角色</a><a href="#session">☷　成長與聚會</a><a href="#connections">∞　名字與關係</a><a href="#glossary">≡　名詞速查</a><a href="#favorites">☆　我的收藏</a><a href="#downloads">↓　PDF 下載</a><a href="#gm">♜　GM 參考附錄</a><a href="#about">關於這份手冊</a></nav></dialog>
+  <dialog id="nav-dialog" class="search-dialog"><form method="dialog" class="search-dialog-top"><h2>更多查閱方式</h2><button class="icon-button" aria-label="關閉導覽">×</button></form><nav class="menu-list" aria-label="其他頁面"><a href="#creation">✎　建立角色</a><a href="#session">☷　成長與聚會</a><a href="#favorites">☆　我的收藏</a><a href="#downloads">↓　PDF 下載</a><a href="#gm">♜　GM 參考附錄</a><a href="#about">關於這份手冊</a></nav></dialog>
   <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title"><form method="dialog" class="search-dialog-top"><h2 id="search-title">搜尋茂林手冊</h2><button class="icon-button" aria-label="關閉搜尋">×</button></form><label class="search-field"><span class="search-icon"></span><input id="global-search" type="search" placeholder="搜尋動作、中文或英文名稱、效果…" autocomplete="off"><kbd>ESC</kbd></label><div class="search-hint">試試「疲勞」、「技巧射擊」、「Catfolk Steel」</div><div id="search-results" aria-live="polite"></div></dialog>
   <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><button class="detail-close icon-button" data-action="close-detail" aria-label="關閉詳細資料">×</button><div id="detail-content"></div></dialog>
+  <dialog id="term-dialog" class="detail-dialog term-dialog" aria-labelledby="term-title"><button class="detail-close icon-button" data-action="close-term" aria-label="關閉名詞說明">×</button><div id="term-content"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <noscript><p class="noscript">請開啟瀏覽器 JavaScript 以使用搜尋與分類，或直接下載 <a href="downloads/root-player-reference-zh.pdf">玩家參考 PDF</a>。</p></noscript>
 </body>
