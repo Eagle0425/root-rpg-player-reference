@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#243d30">
+  <meta name="description" content="Root RPG 繁體中文玩家參考：動作、45 種裝備標籤、19 種角色、創角與聚會流程，附列印及可填寫角色卡。">
+  <title>茂林旅人 · Root RPG 玩家手冊</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到內容</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="茂林旅人首頁"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 8 21h7L5 33h30L25 21h7ZM20 32v6"/></svg><span>茂林旅人<small>ROOT RPG · 玩家手冊</small></span></a>
+    <nav class="desktop-nav" aria-label="主要導覽">
+      <a href="#moves" data-nav="moves">動作</a><a href="#equipment" data-nav="equipment">裝備標籤</a><a href="#characters" data-nav="characters">角色</a><a href="#creation" data-nav="creation">創角與聚會</a><a href="#gm" data-nav="gm">GM 參考</a>
+    </nav>
+    <button class="search-open" data-action="search" aria-label="搜尋整份手冊"><span class="search-icon"></span><span class="search-word">搜尋</span><kbd>/</kbd></button>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" aria-label="手冊分類">
+      <p class="nav-label">旅人的隨身手冊</p>
+      <a href="#home" data-nav="home">⌂ <span>查閱首頁</span></a>
+      <a href="#moves" data-nav="moves">↗ <span>動作速查</span><small>30</small></a>
+      <a href="#equipment" data-nav="equipment">◇ <span>裝備與標籤</span><small>45</small></a>
+      <a href="#characters" data-nav="characters">♧ <span>19 種角色</span></a>
+      <a href="#creation" data-nav="creation">✎ <span>建立角色</span></a>
+      <a href="#session" data-nav="session">☷ <span>成長與聚會</span></a>
+      <a href="#connections" data-nav="connections">∞ <span>名字與關係</span></a>
+      <a href="#glossary" data-nav="glossary">≡ <span>名詞速查</span></a>
+      <div class="nav-divider"></div>
+      <a href="#favorites" data-nav="favorites">☆ <span>我的收藏</span><small id="favorite-count">0</small></a>
+      <a href="#downloads" data-nav="downloads">↓ <span>PDF 下載</span></a>
+      <a href="#gm" data-nav="gm">♜ <span>GM 參考附錄</span></a>
+      <div class="sidebar-note"><span class="tiny-leaf">✦</span><p>先描述你想做什麼，<br>符合動作條件時再擲骰。</p><span>2d6 ＋ 指定能力值</span></div>
+      <a class="about-link" href="#about">關於這份手冊 ↗</a>
+    </aside>
+    <main id="main" tabindex="-1"><div id="view"></div></main>
+  </div>
+  <footer class="site-footer"><span>Root © Leder Games · 遊戲文字與設計 © Magpie Games · 原繪 Kyle Ferrin</span><a href="#about">非官方繁體中文參考整理</a></footer>
+  <nav class="mobile-nav" aria-label="手機快速導覽"><a href="#home" data-nav="home"><b>⌂</b>首頁</a><a href="#moves" data-nav="moves"><b>↗</b>動作</a><a href="#equipment" data-nav="equipment"><b>◇</b>裝備</a><a href="#characters" data-nav="characters"><b>♧</b>角色</a><button data-action="menu"><b>☰</b>更多</button></nav>
+  <dialog id="nav-dialog" class="search-dialog"><form method="dialog" class="search-dialog-top"><h2>更多查閱方式</h2><button class="icon-button" aria-label="關閉導覽">×</button></form><nav class="menu-list" aria-label="其他頁面"><a href="#creation">✎　建立角色</a><a href="#session">☷　成長與聚會</a><a href="#connections">∞　名字與關係</a><a href="#glossary">≡　名詞速查</a><a href="#favorites">☆　我的收藏</a><a href="#downloads">↓　PDF 下載</a><a href="#gm">♜　GM 參考附錄</a><a href="#about">關於這份手冊</a></nav></dialog>
+  <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title"><form method="dialog" class="search-dialog-top"><h2 id="search-title">搜尋茂林手冊</h2><button class="icon-button" aria-label="關閉搜尋">×</button></form><label class="search-field"><span class="search-icon"></span><input id="global-search" type="search" placeholder="搜尋動作、中文或英文名稱、效果…" autocomplete="off"><kbd>ESC</kbd></label><div class="search-hint">試試「疲勞」、「技巧射擊」、「Catfolk Steel」</div><div id="search-results" aria-live="polite"></div></dialog>
+  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><button class="detail-close icon-button" data-action="close-detail" aria-label="關閉詳細資料">×</button><div id="detail-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">請開啟瀏覽器 JavaScript 以使用搜尋與分類，或直接下載 <a href="downloads/root-player-reference-zh.pdf">玩家參考 PDF</a>。</p></noscript>
+</body>
+</html>
