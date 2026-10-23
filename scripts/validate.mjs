@@ -28,6 +28,11 @@ for(const id of ['daring-exploit','setup-control','setup-marquisate','setup-eyri
 for(const e of gm.entries){assert.ok(e.translationStatus,e.id);if(e.example)assert.ok(e.exampleSource?.book&&e.exampleSource.pages,'Example needs book provenance: '+e.id);}
 assert.match(data.load_rules.body,/超過上限兩倍/);
 assert.equal(data.daring_exploit.tables[0].rows.length,6);
+assert.ok(!JSON.stringify(data).includes('originalPages'));
+assert.ok(!JSON.stringify(gm).includes('originalPages'));
+assert.equal(data.drive_explanations.length,15);
+for(const book of data.books) assert.equal(book.drive_explanations.length,book.drives_full.length);
+for(const name of ['Depletion','Exhaustion','Injury','Wear']) assert.ok(data.explanations[name].sections.length>=6,name+' needs recovery details');
 for (const stage of gm.workflow.stages) {
   const references=[...stage.references,...(stage.branches||[]).flatMap(b=>b.references)];
   for (const [id] of references) assert.ok(gm.entries.some(e=>e.id===id),'Broken workflow reference: '+id);

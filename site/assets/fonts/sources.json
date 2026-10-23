@@ -4,31 +4,31 @@
     "source": "JasonHandwriting1-SemiBold.ttf",
     "family": "Woodland Title",
     "weight": 600,
-    "bytes": 999748,
-    "glyphs": 2174
+    "bytes": 1013952,
+    "glyphs": 2199
   },
   {
     "file": "field-section.woff2",
     "source": "JasonHandwriting1-Medium.ttf",
     "family": "Woodland Section",
     "weight": 500,
-    "bytes": 999888,
-    "glyphs": 2174
+    "bytes": 1014124,
+    "glyphs": 2199
   },
   {
     "file": "field-emphasis.woff2",
     "source": "JasonHandwriting2-SemiBold.ttf",
     "family": "Woodland Body",
     "weight": 600,
-    "bytes": 985548,
-    "glyphs": 2174
+    "bytes": 999900,
+    "glyphs": 2199
   },
   {
     "file": "field-body.woff2",
     "source": "JasonHandwriting2-Regular.ttf",
     "family": "Woodland Body",
     "weight": 400,
-    "bytes": 842332,
-    "glyphs": 2174
+    "bytes": 854752,
+    "glyphs": 2199
   }
 ]
