@@ -23,6 +23,11 @@ for (const e of gm.entries) {
   for (const t of e.tables) for (const row of t.rows) assert.equal(row.length,t.headers.length,e.id+' table column count');
 }
 assert.equal(gm.workflow.stages.length,6);
+assert.equal(gm.entries.filter(e=>e.section==='playbooks').length,19);
+for(const id of ['daring-exploit','setup-control','setup-marquisate','setup-eyrie','setup-alliance','setup-lizards','setup-riverfolk','setup-duchy','setup-corvid','setup-denizens','presence-control']) assert.ok(gm.entries.some(e=>e.id===id),id);
+for(const e of gm.entries){assert.ok(e.translationStatus,e.id);if(e.example)assert.ok(e.exampleSource?.book&&e.exampleSource.pages,'Example needs book provenance: '+e.id);}
+assert.match(data.load_rules.body,/超過上限兩倍/);
+assert.equal(data.daring_exploit.tables[0].rows.length,6);
 for (const stage of gm.workflow.stages) {
   const references=[...stage.references,...(stage.branches||[]).flatMap(b=>b.references)];
   for (const [id] of references) assert.ok(gm.entries.some(e=>e.id===id),'Broken workflow reference: '+id);
