@@ -84,3 +84,12 @@ h3,h4,strong,summary{font-weight:600}
 .art-dialog h2{font-size:28px;padding-right:25px;margin-bottom:20px}
 .art-dialog img{display:block;max-width:100%;height:auto;max-height:65dvh;object-fit:contain;margin:auto}
 .art-dialog p{font-size:14px;color:var(--muted);margin:18px 0 0}
+
+/* 2026-10-24 reading and artwork adjustments */
+.desktop-nav a{white-space:nowrap}.search-open{margin-left:auto}
+@media(min-width:781px) and (max-width:1300px){.desktop-nav{display:none}}
+.dice-panel .micro{font-size:17px;line-height:1.85;color:var(--ink)}
+.hero p{font-size:17px;line-height:1.85}.hero h1{font-size:38px;line-height:1.45;letter-spacing:2px}.hero .eyebrow{font-size:14px}
+.character-info .role-stats{display:flex;flex-wrap:wrap;font-size:15px;line-height:1.9;letter-spacing:0;white-space:normal}
+.faction-image-button{display:flex;justify-content:center;align-items:center;min-height:290px}.faction-image-button img{height:290px;width:auto;max-width:100%;object-position:center}.faction-figure{background:transparent}.faction-image-button{background:transparent}
+@media(max-width:780px){.hero-copy{max-width:90%}.hero h1{font-size:31px}.hero p{font-size:16px}.hero-art{opacity:.25}.dice-panel .micro{font-size:17px}.character-info .role-stats{font-size:14px}.faction-image-button img{height:310px}}

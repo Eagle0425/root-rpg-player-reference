@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.23.GM3",
+  "version": "2026.10.24.GM4",
   "books": {
     "core": "Root 核心規則書",
     "exp": "Travelers & Outsiders（旅者與外來者）"
@@ -1833,7 +1833,8 @@
       "aliases": [
         "建立茂林的順序"
       ],
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "初始地圖"
     },
     {
       "id": "map-rolls",
@@ -1906,7 +1907,8 @@
       "aliases": [
         "地圖生成基本表"
       ],
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "初始地圖"
     },
     {
       "id": "clearing-template",
@@ -1928,7 +1930,8 @@
       "aliases": [
         "一處空地的準備模板"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "摘要／規則索引，尚非逐段全譯",
+      "category": "領地素材"
     },
     {
       "id": "roll-inhabitants",
@@ -2019,7 +2022,8 @@
       "aliases": [
         "重要居民生成表"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "摘要／規則索引，尚非逐段全譯",
+      "category": "領地素材"
     },
     {
       "id": "roll-buildings",
@@ -2110,7 +2114,8 @@
       "aliases": [
         "重要建築生成表"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "摘要／規則索引，尚非逐段全譯",
+      "category": "領地素材"
     },
     {
       "id": "roll-problems",
@@ -2201,7 +2206,8 @@
       "aliases": [
         "空地問題生成表"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "摘要／規則索引，尚非逐段全譯",
+      "category": "領地素材"
     },
     {
       "id": "request-generator",
@@ -2322,7 +2328,8 @@
       "aliases": [
         "委託生成：地點、工作與雇主"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "摘要／規則索引，尚非逐段全譯",
+      "category": "委託"
     },
     {
       "id": "war-status",
@@ -2370,7 +2377,8 @@
       "aliases": [
         "空地受戰爭影響程度"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "摘要／規則索引，尚非逐段全譯",
+      "category": "領地素材"
     },
     {
       "id": "time-passes",
@@ -2948,7 +2956,8 @@
       "aliases": [
         "擴充系統要先決定是否採用"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "摘要／規則索引，尚非逐段全譯",
+      "category": "自訂與選用"
     },
     {
       "id": "custom-moves",
@@ -2970,17 +2979,18 @@
       "aliases": [
         "自訂動作的設計與檢查"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "摘要／規則索引，尚非逐段全譯",
+      "category": "自訂與選用"
     },
     {
       "id": "species-options",
       "section": "options",
       "title": "物種的故事特性、物種動作與能力系統，有什麼不同？",
       "summary": "核心遊戲物種主要影響描述與互動。擴充另有物種動作（58 起）、將物種動作作為扮演書動作的方案（60 起），以及物種能力系統（64 起）。先決定使用哪套，再按其取得與啟用條件處理，避免同一物種無條件疊加所有方案。",
-      "body": "核心遊戲物種主要影響描述與互動。擴充另有物種動作（58 起）、將物種動作作為扮演書動作的方案（60 起），以及物種能力系統（64 起）。先決定使用哪套，再按其取得與啟用條件處理，避免同一物種無條件疊加所有方案。",
+      "body": "預設規則中，各動物物種在機制上沒有差異，差異存在於故事：鳥飛行、鼴鼠挖洞、狼聽覺靈敏。相關不確定性可以用基本動作處理。狼仔細聽，沒有不確定性就直接聽見；若有疑問，可能審度情勢。鳥飛到樹頂，沒有張力就直接做到；有風險則可能使用遊俠專長或相信命運。\n\n若希望更具體地呈現鷹爪、兔子的長腿或青蛙的兩棲特性，本章有兩種選用方案：完整物種動作，以及較靈活的物種能力系統。\n\n居民差異極大：兩隻狐狸可能文化、階級、家庭不同，天生能力程度也不同。天天磨指甲的狐狸，不像住森林、以爪作武器的狐狸。這些能力並非每位同物種成員必備，不定義全物種普遍不變的「本質」。\n\n物種動作結合學習與先天能力。有些直接指爪、翅膀，有些涉及成長社會化。鼴鼠取得隱藏，既可以代表大爪與挖掘本領，也可以代表家庭、文化及周圍居民教他躲藏；何者重要由玩家決定。\n\n這些系統重視描述而非精準平衡，不保證每個動作提供等價能力值、相同動作數或其他平衡標準。採用它們應是為了進一步定義、個別化角色，讓物種以有趣方式重要，而非尋找優勢。",
       "source": {
         "book": "exp",
-        "pages": "58–68"
+        "pages": "58–59"
       },
       "tables": [],
       "tags": [
@@ -2992,17 +3002,18 @@
       "aliases": [
         "物種相關選項的查找"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種方案"
     },
     {
       "id": "masteries",
       "section": "options",
       "title": "精通：如何讓已熟悉的動作取得 12+ 大勝效果？",
       "summary": "精通讓已精通的動作新增 12+ 的「大勝」結果，不會讓所有動作在 12+ 自動變強。每次一般成長可精通一項基本動作，或至多兩項已掌握的武器技能。上限為兩項基本動作、四項武器技能；此成長選項合計最多選四次。取得時不必額外強制安排導師或數月訓練，但可用故事描寫其進步。",
-      "body": "精通讓已精通的動作新增 12+ 的「大勝」結果，不會讓所有動作在 12+ 自動變強。每次一般成長可精通一項基本動作，或至多兩項已掌握的武器技能。上限為兩項基本動作、四項武器技能；此成長選項合計最多選四次。取得時不必額外強制安排導師或數月訓練，但可用故事描寫其進步。\n\n沒有精通的動作仍按原規則，12 點以上通常也只是原本的 10+。先查清該項精通增加的效果，再結算，不另發明所有動作共用的暴擊獎勵。",
+      "body": "精通是專注特定動作的新成長途徑。它不授予全新的行動能力，也不像能力值提升那樣改善所有相關行動，而是讓基本動作或武器技能獲得格外出色的結果。\n\n精通在 10+ 完全成功之上新增「大勝」：總和 12 以上。已精通的動作，結果分為 6− 失敗、7–9 部分成功、10–11 完全成功、12+ 大勝。大勝除了達成目標，也帶來額外成果，類似致命一擊或大成功。\n\n取得方式：在一般成長選項加入「精通一項基本動作，或至多兩項已掌握的武器技能；上限為兩項基本動作、四項武器技能」。每次選擇，可精通一個基本動作或兩個武器技能；必須已掌握該武器技能。總共最多選四次：基本動作兩次、武器技能兩次。\n\n不必為取得精通另找老師或練習數月；你早已使用這些本領，可以直接選擇。仍可用老師或練習替成長增添故事色彩。\n\n精通清單不包含一般武器動作。戰鬥精通以取得、精通武器技能表示；勇士、流亡者的部分扮演書動作另有類似 12+ 結果。未列出的動作，不會只因擲出 12+ 就自動獲得額外效果。",
       "source": {
         "book": "exp",
-        "pages": "69–76"
+        "pages": "69–70"
       },
       "tables": [],
       "tags": [
@@ -3015,7 +3026,8 @@
       "aliases": [
         "精通與角色後期成長"
       ],
-      "translationStatus": "摘要／規則索引，尚非逐段全譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
     },
     {
       "id": "marquisate-projects",
@@ -3164,7 +3176,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "setup-marquisate",
@@ -3212,7 +3225,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "setup-eyrie",
@@ -3256,7 +3270,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "setup-alliance",
@@ -3317,7 +3332,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "setup-lizards",
@@ -3357,7 +3373,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "setup-riverfolk",
@@ -3375,7 +3392,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "setup-duchy",
@@ -3419,7 +3437,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "setup-corvid",
@@ -3437,7 +3456,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "setup-denizens",
@@ -3473,7 +3493,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "presence-control",
@@ -3491,7 +3512,8 @@
       ],
       "kind": "rules",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "陣營領地設置"
     },
     {
       "id": "daring-exploit",
@@ -3563,7 +3585,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
     },
     {
       "id": "playbook-arbiter",
@@ -3583,7 +3606,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
     },
     {
       "id": "playbook-champion",
@@ -3603,7 +3627,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-chronicler",
@@ -3623,7 +3648,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-envoy",
@@ -3643,7 +3669,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-exile",
@@ -3663,7 +3690,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-harrier",
@@ -3683,7 +3711,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
     },
     {
       "id": "playbook-heretic",
@@ -3703,7 +3732,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-pirate",
@@ -3723,7 +3753,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-prince",
@@ -3743,7 +3774,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-raconteur",
@@ -3763,7 +3795,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-raider",
@@ -3783,7 +3816,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-ranger",
@@ -3803,7 +3837,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
     },
     {
       "id": "playbook-ronin",
@@ -3823,7 +3858,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
     },
     {
       "id": "playbook-scoundrel",
@@ -3843,7 +3879,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
     },
     {
       "id": "playbook-seeker",
@@ -3863,7 +3900,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "擴充扮演書"
     },
     {
       "id": "playbook-thief",
@@ -3883,7 +3921,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
     },
     {
       "id": "playbook-tinker",
@@ -3903,7 +3942,8 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
     },
     {
       "id": "playbook-vagrant",
@@ -3923,7 +3963,788 @@
       ],
       "kind": "guide",
       "open": false,
-      "translationStatus": "本節逐段翻譯"
+      "translationStatus": "本節逐段翻譯",
+      "category": "核心扮演書"
+    },
+    {
+      "id": "mastery-roguish",
+      "section": "options",
+      "title": "使用遊俠專長：精通效果",
+      "summary": "12+：除 10+ 結果外，選一項：\n• 立刻完成第二項合適的遊俠專長，如同擲出 10+，不論你是否掌握。\n• 掌控自己與局面，清除 2 疲勞。",
+      "body": "12+：除 10+ 結果外，選一項：\n• 立刻完成第二項合適的遊俠專長，如同擲出 10+，不論你是否掌握。\n• 掌控自己與局面，清除 2 疲勞。\n\n第二項專長不必受過訓練，讓這次成功延伸到尚未學會的專長，且不承擔風險。",
+      "source": {
+        "book": "exp",
+        "pages": "70"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-figure",
+      "section": "options",
+      "title": "揣測某人：精通效果",
+      "summary": "12+：除 10+ 結果外，記下對方名字；此後你始終能辨認他是否對你說謊。若對已記名人物再次擲出 12+，改為在依提問答案行動時持續 +1。",
+      "body": "12+：除 10+ 結果外，記下對方名字；此後你始終能辨認他是否對你說謊。若對已記名人物再次擲出 12+，改為在依提問答案行動時持續 +1。\n\n記名是永久改變：你已獲得足夠洞察，能持續可靠地看出此人是否說謊。與已記名人物互動時提醒 GM，讓他記得告知。持續 +1 則只維持到答案不再有意義，如同審度情勢；例如對方希望你離開，加值大概只持續到他認為你已離開該區。",
+      "source": {
+        "book": "exp",
+        "pages": "70–71"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-persuade",
+      "section": "options",
+      "title": "說服一名 NPC：精通效果",
+      "summary": "12+：除 10+ 結果外，可以標記疲勞，把此動作視為名聲動作「動搖一名 NPC」的 12+，即使對其陣營名聲不足以通常使用該動作。",
+      "body": "12+：除 10+ 結果外，可以標記疲勞，把此動作視為名聲動作「動搖一名 NPC」的 12+，即使對其陣營名聲不足以通常使用該動作。\n\n動搖一名 NPC 見核心第 117 頁，能改寫被動搖者的動機，使其以不同方式看待世界。你的說服力如此強，單純辦事也會改變人心。此大勝可忽略通常的名聲門檻。",
+      "source": {
+        "book": "exp",
+        "pages": "71"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-read",
+      "section": "options",
+      "title": "審度情勢：精通效果",
+      "summary": "12+：除 10+ 結果外，可以再問「我要如何＿＿？」填入希望完成的任何行動。若依答案行動，朝該目標做出的第一個動作，不擲骰，直接視為 12+。",
+      "body": "12+：除 10+ 結果外，可以再問「我要如何＿＿？」填入希望完成的任何行動。若依答案行動，朝該目標做出的第一個動作，不擲骰，直接視為 12+。\n\n只要能以周遭環境與自身能力達成，GM 就告知方法。遵循指示後，第一個實際觸發的動作可直接取得 12+。",
+      "source": {
+        "book": "exp",
+        "pages": "71"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-trick",
+      "section": "options",
+      "title": "欺騙一名 NPC：精通效果",
+      "summary": "12+：對方完全相信你的騙局，只有明顯、無可反駁的證據才能動搖。日後可回到同一人物面前，用同樣手法再騙他，不擲骰，直接視為 10+。",
+      "body": "12+：對方完全相信你的騙局，只有明顯、無可反駁的證據才能動搖。日後可回到同一人物面前，用同樣手法再騙他，不擲骰，直接視為 10+。\n\n記下對方相信這項謊言。12+ 後也可補充騙局，增加他可能相信的細節，作為日後受益的線索。例如偽裝成有權進入軍械庫的人，守衛就會持續放行，直到收到無可反駁的證據或明確的禁止命令。",
+      "source": {
+        "book": "exp",
+        "pages": "72"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-fate",
+      "section": "options",
+      "title": "相信命運：精通效果",
+      "summary": "12+：命運對你微笑，帶來驚人而出乎意料的好運。你不付代價便達成目的，並立刻得到幸運好處；GM 說明降臨何種收穫。",
+      "body": "12+：命運對你微笑，帶來驚人而出乎意料的好運。你不付代價便達成目的，並立刻得到幸運好處；GM 說明降臨何種收穫。\n\n這結合了立刻掌握短暫機會、扭轉勝算的本領，以及不可思議的運氣。無意識技巧與巧合的界線在此模糊；但這份意外好運，幾乎無法透過其他方式取得。",
+      "source": {
+        "book": "exp",
+        "pages": "72"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-wreck",
+      "section": "options",
+      "title": "破壞東西：精通效果",
+      "summary": "12+：除 10+ 結果外，選一項：\n• 以碎片、瓦礫、倒塌結構等，對區域內任何敵人造成 2 創傷。\n• 打碎、砸毀遠比平常更巨大、堅固的東西，例如整棟建築或山壁。\n• 從殘骸取走有用材料，清除 2 消耗。",
+      "body": "12+：除 10+ 結果外，選一項：\n• 以碎片、瓦礫、倒塌結構等，對區域內任何敵人造成 2 創傷。\n• 打碎、砸毀遠比平常更巨大、堅固的東西，例如整棟建築或山壁。\n• 從殘骸取走有用材料，清除 2 消耗。\n\n第一與第三項改變破壞方式以取得額外利益；第二項可擴大原本目標，例如由打破牢門，變成摧毀整側監獄，打斷支柱使更大結構崩塌。",
+      "source": {
+        "book": "exp",
+        "pages": "73"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-cleave",
+      "section": "options",
+      "title": "劈開護甲：精通效果",
+      "summary": "12+：改為造成 6 磨損。超出的磨損轉為對敵人的創傷或疲勞，由你選擇。",
+      "body": "12+：改為造成 6 磨損。超出的磨損轉為對敵人的創傷或疲勞，由你選擇。\n\n主要對象是 NPC，其全部裝備共用一條磨損軌，不會出現劍已壞、護甲卻另有空格吸收的情況；6 磨損會摧毀防禦，超出部分直接成為創傷或疲勞。若對 PC 使用，攻擊者可依情境選擇承受 6 磨損的裝備，超出部分仍由攻擊者選轉創傷或疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "73"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-confuse",
+      "section": "options",
+      "title": "迷惑感官：精通效果",
+      "summary": "12+：選一項：\n• 成功迷惑整群人的感官，將 10+ 效果套用到射程內你選擇的所有敵人。\n• 讓單一敵人失衡到立刻可依你選擇的方式將他制伏，不觸發其他動作。",
+      "body": "12+：選一項：\n• 成功迷惑整群人的感官，將 10+ 效果套用到射程內你選擇的所有敵人。\n• 讓單一敵人失衡到立刻可依你選擇的方式將他制伏，不觸發其他動作。\n\n第一項可擴展原先的行動，使同區更多人受到影響；第二項由你決定對方遭遇，例如立刻昏迷，或被刀抵住喉嚨、無法逃脫。",
+      "source": {
+        "book": "exp",
+        "pages": "74"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-disarm",
+      "section": "options",
+      "title": "解除武裝：精通效果",
+      "summary": "12+：對手同時標記 3 疲勞，並失去武器。",
+      "body": "12+：對手同時標記 3 疲勞，並失去武器。\n\n此結果取代而非疊加原 10+：對手不能二選一，必須承受兩項後果，而且額外多受 1 疲勞。仍可能試圖取回武器，但武器被打到不易立刻拾回的位置。",
+      "source": {
+        "book": "exp",
+        "pages": "74"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-harry",
+      "section": "options",
+      "title": "擾亂團體：精通效果",
+      "summary": "12+：除 10+ 結果外，額外造成 2 創傷或 2 士氣，由你選擇。",
+      "body": "12+：除 10+ 結果外，額外造成 2 創傷或 2 士氣，由你選擇。\n\n仍然壓制目標並造成原有 2 士氣。可再造成創傷，或再加 2 士氣、合計 4 士氣，爭取徹底壓倒目標。",
+      "source": {
+        "book": "exp",
+        "pages": "74"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-improvise",
+      "section": "options",
+      "title": "製作武器：精通效果",
+      "summary": "12+：由你選擇武器射程與兩個正面標籤，只要適合該物品。",
+      "body": "12+：由你選擇武器射程與兩個正面標籤，只要適合該物品。\n\n這取代而非疊加原 10+ 結果。由玩家選擇兩個正面標籤與合理射程，GM 最終裁定是否適合，但不代為挑選。",
+      "source": {
+        "book": "exp",
+        "pages": "75"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-parry",
+      "section": "options",
+      "title": "招架：精通效果",
+      "summary": "12+：除 10+ 結果外，可以立刻反擊，選一項：\n• 穿透防禦造成 2 創傷，對方不能以護甲吸收。\n• 以侮辱話語或手勢貶低對方，造成 2 士氣。\n• 迅速揮拳或打擊，使其暈眩、試圖擊昏，造成 2 疲勞。",
+      "body": "12+：除 10+ 結果外，可以立刻反擊，選一項：\n• 穿透防禦造成 2 創傷，對方不能以護甲吸收。\n• 以侮辱話語或手勢貶低對方，造成 2 士氣。\n• 迅速揮拳或打擊，使其暈眩、試圖擊昏，造成 2 疲勞。\n\n不論選哪項，都要描述招架後實際如何反擊，這是展現頂尖劍客身手的機會！",
+      "source": {
+        "book": "exp",
+        "pages": "75"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-quick",
+      "section": "options",
+      "title": "快速射擊：精通效果",
+      "summary": "12+：取得清單全部四個選項，並改為造成 2 創傷而非 1 創傷。",
+      "body": "12+：取得清單全部四個選項，並改為造成 2 創傷而非 1 創傷。\n\n這取代原 10+ 結果；基本傷害提高到 2。不必每次都移動或改變位置，但選項始終可用。",
+      "source": {
+        "book": "exp",
+        "pages": "75"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-storm",
+      "section": "options",
+      "title": "突襲團體：精通效果",
+      "summary": "12+：取得清單全部四個選項，再選其中一項使效果加倍。",
+      "body": "12+：取得清單全部四個選項，再選其中一項使效果加倍。\n\n這取代原 10+ 結果。若加倍的選項包含代價，例如標記疲勞，也必須再付一次。仍照常交換傷害，再依所選效果修正。",
+      "source": {
+        "book": "exp",
+        "pages": "76"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-shot",
+      "section": "options",
+      "title": "技巧射擊：精通效果",
+      "summary": "12+：取得清單全部四個選項，並讓射擊命中你選擇的第三個可攻擊目標。",
+      "body": "12+：取得清單全部四個選項，並讓射擊命中你選擇的第三個可攻擊目標。\n\n這取代原 10+，相當於額外增加第三目標的選項。完整傷害套用到全部三個目標。",
+      "source": {
+        "book": "exp",
+        "pages": "76"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "mastery-vicious",
+      "section": "options",
+      "title": "兇惡打擊：精通效果",
+      "summary": "12+：除 10+ 結果外，重創對方，使其失去某項行動能力，選一項：\n• 接受醫療前，不能變換位置，包括逃跑、前進、調動等。\n• 接受醫療前，不能使用武器。\n• 接受醫療前，不能溝通。",
+      "body": "12+：除 10+ 結果外，重創對方，使其失去某項行動能力，選一項：\n• 接受醫療前，不能變換位置，包括逃跑、前進、調動等。\n• 接受醫療前，不能使用武器。\n• 接受醫療前，不能溝通。\n\n這是故事中的失能效果，實際移除可採行動：不能換位就不能跑，不能用武器就不能交換傷害或還擊，不能溝通就不能呼救。",
+      "source": {
+        "book": "exp",
+        "pages": "76"
+      },
+      "tables": [],
+      "tags": [
+        "精通",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "精通"
+    },
+    {
+      "id": "species-playbook-system",
+      "section": "options",
+      "title": "物種動作作為扮演書動作：取得與成長",
+      "summary": "第一種方案把物種動作視為額外的扮演書動作，以完整動作定義物種本領。\n• 創角時，可用一個適合物種的動作，替換原本要選的一個扮演書動作。\n• 成長時，可在符合故事的情況下取得新物種動作，例如讓原本剪短的爪重新留長，再取得天生武器。\n• 物種動作計入自身扮演書動作的數量上限。",
+      "body": "第一種方案把物種動作視為額外的扮演書動作，以完整動作定義物種本領。\n• 創角時，可用一個適合物種的動作，替換原本要選的一個扮演書動作。\n• 成長時，可在符合故事的情況下取得新物種動作，例如讓原本剪短的爪重新留長，再取得天生武器。\n• 物種動作計入自身扮演書動作的數量上限。\n\n各動作列出的物種只是適用例子，不是完整名單。可扮演物種遠超過能逐一列出的範圍；清單以茂林常見動物作基準，幫助思考。最終與 GM 和其他玩家討論，決定是否符合物種或人物概念。\n\n另一種取得方案：若喜歡角色有更多選項，可每次一般成長時，依故事另外取得一個物種動作，最多兩個。此方案不計入自身扮演書動作上限，因此所有 PC 最終可比平常多兩個動作。",
+      "source": {
+        "book": "exp",
+        "pages": "60"
+      },
+      "tables": [],
+      "tags": [
+        "物種方案",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種方案"
+    },
+    {
+      "id": "species-move-weapons",
+      "section": "options",
+      "title": "天生武器：物種動作",
+      "summary": "適用物種：貓、狐狸、猛禽、蜥蜴。",
+      "body": "適用物種：貓、狐狸、猛禽、蜥蜴。\n\n爪、牙或利爪是天然武器，射程貼身，不占重量，造成創傷而非疲勞。從下列清單選一個武器標籤與一個缺點。\n\n正面標籤：\n• 倒鉤：以武器末端勾住人時，標記疲勞，移到貼身並與其搏鬥，如同擲出 10+。\n• 迅速：交鋒時標記磨損，少受 1 傷害，失敗也有效。\n• 威嚇：展示它、以威脅說服 NPC 時，可對其陣營標記 2 惡名，將失敗改 7–9，或 7–9 改 10+。\n• 精準：造成傷害時標記磨損，忽略敵人護甲。\n• 迅捷：標記疲勞，交鋒以靈巧取代力量。\n• 鋒利：造成傷害時標記磨損，額外造成 1 傷害。\n• 著名：展示它時取得威望或惡名，額外標記 1 點同類名聲。\n\n缺點：\n• 易辨識：它被認為與特定人物相關，見到者立刻認出，並把你和該人物聯想在一起。\n• 緩慢：交鋒少選一個選項，標記磨損可忽略。\n• 醜陋：對方看見時，會見重要人物 −1；標記疲勞可藏起。\n• 難以揮舞：使用它的所有一般及特殊武器動作 −1；標記疲勞可忽略。",
+      "source": {
+        "book": "exp",
+        "pages": "61"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-cache",
+      "section": "options",
+      "title": "藏匿物資：物種動作",
+      "summary": "適用物種：狐狸、松鼠、鼴鼠。",
+      "body": "適用物種：狐狸、松鼠、鼴鼠。\n\n你在森林各處藏了資源，有些地點連自己都忘記。搜尋藏物處時擲骰＋狡猾。成功時，找到物資，清除 2 消耗。7–9，搜尋耗時極久，標記疲勞。失敗，四處走動使你在察覺前已陷危險。",
+      "source": {
+        "book": "exp",
+        "pages": "62"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-sympathy",
+      "section": "options",
+      "title": "博取同情：物種動作",
+      "summary": "適用物種：兔子、老鼠、鴉科。",
+      "body": "適用物種：兔子、老鼠、鴉科。\n\n藉內疚感懇求 PC 同行或配合時，標記疲勞；若他同意提議，讓他清除 2 疲勞，而非原本的 1。",
+      "source": {
+        "book": "exp",
+        "pages": "62"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-scent",
+      "section": "options",
+      "title": "嗅探領地：物種動作",
+      "summary": "適用物種：貓、狗、狼。",
+      "body": "適用物種：貓、狗、狼。\n\n嗅出新領地的細節時，擲骰＋狡猾。10+ 問兩題，7–9 問一題：\n• 在最公開的區域，聞到最意外的氣味是什麼？\n• 哪條有趣氣味引起注意，通向哪裡？\n• 有人努力隱藏什麼氣味，我在哪裡聞到？\n• 哪裡聞起來最危險？\n• 哪裡聞起來最安全？\n失敗仍問一題，但嗅探使你忽略另一個威脅，它搶先出手。",
+      "source": {
+        "book": "exp",
+        "pages": "62"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-search",
+      "section": "options",
+      "title": "搜尋縫隙：物種動作",
+      "summary": "適用物種：狐狸、老鼠、水獺。",
+      "body": "適用物種：狐狸、老鼠、水獺。\n\n仔細搜尋某人的私人空間以尋找祕密時，擲骰＋幸運。成功，GM 告知這裡沒有祕密、對方沒藏東西，或你找到驚人、可定罪或洩漏內情的東西。7–9 選不留證據，或帶走某物。10+ 兩者都可，或者可栽放某物。失敗，奇怪的發現使你分心，剛好足以被抓！",
+      "source": {
+        "book": "exp",
+        "pages": "63"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-luck",
+      "section": "options",
+      "title": "幸運一擊：物種動作",
+      "summary": "適用物種：兔子。",
+      "body": "適用物種：兔子。\n\n幸運＋1，上限＋3。",
+      "source": {
+        "book": "exp",
+        "pages": "63"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-squeeze",
+      "section": "options",
+      "title": "狹縫擠身：物種動作",
+      "summary": "適用物種：老鼠、貓、蜥蜴。",
+      "body": "適用物種：老鼠、貓、蜥蜴。\n\n擠過狹窄空間時，擲骰＋靈巧。成功，到達另一側。7–9，選標記創傷，或在裝備上標記 3 磨損。失敗，被卡住，而且另一側有不友善的東西。",
+      "source": {
+        "book": "exp",
+        "pages": "63"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-hideout",
+      "section": "options",
+      "title": "便利藏身處：物種動作",
+      "summary": "適用物種：狐狸、兔子。",
+      "body": "適用物種：狐狸、兔子。\n\n你擅長找到安全、適合躲藏的地方。在森林暫避風頭時擲骰＋狡猾。成功，附近有便利藏身處。10+ 選二，7–9 選一：\n• 容易取得食物飲水。\n• 地區未被其他居民或威脅碰觸、干擾。\n• 抵達的道路安全容易。\n失敗，仍抵達藏身處並選一項，但抵達時你不是獨自一人。",
+      "source": {
+        "book": "exp",
+        "pages": "63"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-lives",
+      "section": "options",
+      "title": "九命：物種動作",
+      "summary": "適用物種：貓、鴉科。",
+      "body": "適用物種：貓、鴉科。\n\n每場一次，當你標記最後一格創傷時，標記疲勞，完全忽略那次打擊，繼續站立到完成最後一次英雄行動。完成後，你倒下並失去意識。",
+      "source": {
+        "book": "exp",
+        "pages": "64"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-move-tunnels",
+      "section": "options",
+      "title": "地下通道：物種動作",
+      "summary": "適用物種：兔子、老鼠、鼴鼠。",
+      "body": "適用物種：兔子、老鼠、鼴鼠。\n\n取得隱藏專長，不計入上限。透過挖入地下嘗試隱藏時，以力量取代靈巧擲骰。",
+      "source": {
+        "book": "exp",
+        "pages": "64"
+      },
+      "tables": [],
+      "tags": [
+        "物種動作",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種動作"
+    },
+    {
+      "id": "species-abilities-system",
+      "section": "options",
+      "title": "物種能力系統：啟用、本能與自訂",
+      "summary": "第二種方案讓每位角色取得少數可主動運用的物種行動，不增加整個新動作的複雜性。創角時自動取得所屬物種的三個能力；遊戲中任何合適時刻，標記疲勞就能使用一個能力。",
+      "body": "第二種方案讓每位角色取得少數可主動運用的物種行動，不增加整個新動作的複雜性。創角時自動取得所屬物種的三個能力；遊戲中任何合適時刻，標記疲勞就能使用一個能力。\n\n仍須能在故事中採取該行動，例如爪子被綁時不能以牙爪攻擊。除此之外，只需標記疲勞。能力沒有不確定性：只要行動可行，便取得效果。但世界仍會回應；你以牙爪攻擊，對手不會只是坐著挨打。\n\n每組能力另有本能動作，類似額外天性。依本能行動可清除疲勞，觸發與運作大致同天性，但只清除 1 疲勞，而且每場只能一次。\n\n自訂新物種時，給三個不同能力。已有能力合適就混合使用，不必重寫。新能力應讓遊俠在無不確定性下採取特定行動，但要足夠具體，不要全面取代基本動作。例如幾瞬間飛到領地內任何地點，仍有不適用的移動情境。\n\n若設計機械效果，限於造成 1 點合適傷害；給較邊緣、少用動作＋1；或在非常特定情境讓基本動作直接 12+。要實用有意義，但別比基本動作更重要。三個能力最多兩個高度機械化，而且最多一個提供＋1 或 12+；三個全是機械效果，通常比重過大。\n\n最後設計該物種獨特的本能，始終限每場一次、清除 1 疲勞。可較易觸發，但要鼓勵有趣、危險或有特色的行為。書中例子包括在危險中利用夜色，以及花數小時曬暖；後者雖不刺激，時間與熱源條件仍提供有趣限制。",
+      "source": {
+        "book": "exp",
+        "pages": "64–66"
+      },
+      "tables": [],
+      "tags": [
+        "物種方案",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種方案"
+    },
+    {
+      "id": "species-ability-fox",
+      "section": "options",
+      "title": "狐狸：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 嗅出藏起的食物或物資。\n• 領地間穿越森林＋1。\n• 以牙爪攻擊，造成 1 創傷。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 嗅出藏起的食物或物資。\n• 領地間穿越森林＋1。\n• 以牙爪攻擊，造成 1 創傷。\n\n本能：每場一次，當你在危險情境中利用夜色取得優勢時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "66"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-mouse",
+      "section": "options",
+      "title": "老鼠：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 擠過狹窄空間，進入或逃離某處。\n• 嗅出藏起的食物或物資。\n• 欺騙 NPC 使其低估你時，不擲骰，直接 12+。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 擠過狹窄空間，進入或逃離某處。\n• 嗅出藏起的食物或物資。\n• 欺騙 NPC 使其低估你時，不擲骰，直接 12+。\n\n本能：每場一次，當你在衝突或計畫前先偵察區域時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "66"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-rabbit",
+      "section": "options",
+      "title": "兔子：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 挖入地下，進入或逃離某處。\n• 以超過幾乎所有其他居民的速度疾跑。\n• 不引起注意地偷聽附近對話。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 挖入地下，進入或逃離某處。\n• 以超過幾乎所有其他居民的速度疾跑。\n• 不引起注意地偷聽附近對話。\n\n本能：每場一次，當你計畫出錯時，說服盟友採新策略時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "66"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-otter",
+      "section": "options",
+      "title": "水獺：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 在水下游泳，進入或逃離某處。\n• 以附近資源即興製作簡單但可用的工具。\n• 不論環境如何，都替小隊找到安全庇護。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 在水下游泳，進入或逃離某處。\n• 以附近資源即興製作簡單但可用的工具。\n• 不論環境如何，都替小隊找到安全庇護。\n\n本能：每場一次，當你在足以拆散小隊的情況下維持團結時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "67"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-raptor",
+      "section": "options",
+      "title": "猛禽：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 從空中追蹤居民而不暴露。\n• 以爪與喙攻擊，造成 1 創傷。\n• 幾瞬間飛到領地內任何位置。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 從空中追蹤居民而不暴露。\n• 以爪與喙攻擊，造成 1 創傷。\n• 幾瞬間飛到領地內任何位置。\n\n本能：每場一次，當你取得讓自己對敵人占優勢的資訊時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "67"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-cat",
+      "section": "options",
+      "title": "貓：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 在無人防守的黑暗區域追蹤居民而不暴露。\n• 由任何高度墜下而不受傷。\n• 以牙爪攻擊，造成 1 創傷。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 在無人防守的黑暗區域追蹤居民而不暴露。\n• 由任何高度墜下而不受傷。\n• 以牙爪攻擊，造成 1 創傷。\n\n本能：每場一次，當你捉住並逼入絕境自己追獵的對象時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "67"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-lizard",
+      "section": "options",
+      "title": "蜥蜴：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 迅速爬過可以存活的危險環境，不受創傷。\n• 擠過狹窄空間，進入或逃離某處。\n• 攀爬垂直表面或危險狹路。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 迅速爬過可以存活的危險環境，不受創傷。\n• 擠過狹窄空間，進入或逃離某處。\n• 攀爬垂直表面或危險狹路。\n\n本能：每場一次，當你花數小時在熱源下曬暖時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "67"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-corvid",
+      "section": "options",
+      "title": "鴉科：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 嗅出藏起的食物或物資。\n• 抓走並藏入口袋一件能被你取得的貴重或閃亮物品。\n• 飛入夜色，甩掉任何追兵。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 嗅出藏起的食物或物資。\n• 抓走並藏入口袋一件能被你取得的貴重或閃亮物品。\n• 飛入夜色，甩掉任何追兵。\n\n本能：每場一次，當你以出人意料或創新的方式使用工具或裝備時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "68"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-small-bird",
+      "section": "options",
+      "title": "小型鳥類：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 幾瞬間飛到領地內任何位置。\n• 找到能完全避開追兵視線的完美藏身處。\n• 攜帶不超過 2 重量，以雜技行動使用雜技專長或相信命運時，直接 12+。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 幾瞬間飛到領地內任何位置。\n• 找到能完全避開追兵視線的完美藏身處。\n• 攜帶不超過 2 重量，以雜技行動使用雜技專長或相信命運時，直接 12+。\n\n本能：每場一次，當你成功擺脫或避免不必要的注意時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "68"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
+    },
+    {
+      "id": "species-ability-mole",
+      "section": "options",
+      "title": "鼴鼠：物種能力與本能",
+      "summary": "標記 1 疲勞啟用一項能力：\n• 挖進鬆土，過一段時間由另一個可達點出現。\n• 鼻子貼地，偵測附近居民的振動。\n• 領地間穿越森林＋1。",
+      "body": "標記 1 疲勞啟用一項能力：\n• 挖進鬆土，過一段時間由另一個可達點出現。\n• 鼻子貼地，偵測附近居民的振動。\n• 領地間穿越森林＋1。\n\n本能：每場一次，當你觸摸以前未摸過、美麗、精製或觸感舒適的物件時，清除 1 疲勞。",
+      "source": {
+        "book": "exp",
+        "pages": "68"
+      },
+      "tables": [],
+      "tags": [
+        "物種能力",
+        "選用規則"
+      ],
+      "kind": "rules",
+      "open": false,
+      "translationStatus": "本節逐段翻譯",
+      "category": "物種能力"
     }
   ],
   "workflow": {

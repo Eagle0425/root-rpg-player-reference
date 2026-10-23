@@ -31,6 +31,11 @@ assert.equal(data.daring_exploit.tables[0].rows.length,6);
 assert.ok(!JSON.stringify(data).includes('originalPages'));
 assert.ok(!JSON.stringify(gm).includes('originalPages'));
 assert.equal(data.drive_explanations.length,15);
+assert.ok(data.drive_explanations.every(t=>t.condition&&t.body));
+assert.equal(gm.entries.filter(e=>e.id.startsWith('mastery-')).length,17);
+assert.equal(gm.entries.filter(e=>e.id.startsWith('species-move-')).length,10);
+assert.equal(gm.entries.filter(e=>e.id.startsWith('species-ability-')).length,10);
+assert.ok(gm.entries.filter(e=>e.section==='clearings').every(e=>e.category));
 for(const book of data.books) assert.equal(book.drive_explanations.length,book.drives_full.length);
 for(const name of ['Depletion','Exhaustion','Injury','Wear']) assert.ok(data.explanations[name].sections.length>=6,name+' needs recovery details');
 for (const stage of gm.workflow.stages) {
