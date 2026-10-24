@@ -1,0 +1,1766 @@
+{
+  "version": 1,
+  "terms": {
+    "Charm": {
+      "zh": "魅力",
+      "status": "approved",
+      "category": "能力值",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Cunning": {
+      "zh": "狡猾",
+      "status": "approved",
+      "category": "能力值",
+      "decision": "既有成果用語",
+      "forbidden": [
+        "狡黠"
+      ]
+    },
+    "Finesse": {
+      "zh": "靈巧",
+      "status": "approved",
+      "category": "能力值",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Luck": {
+      "zh": "幸運",
+      "status": "approved",
+      "category": "能力值",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Might": {
+      "zh": "力量",
+      "status": "approved",
+      "category": "能力值",
+      "decision": "既有成果用語",
+      "forbidden": [
+        "威猛"
+      ]
+    },
+    "Attempt a Roguish Feat": {
+      "zh": "使用遊俠專長",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Figure Someone Out": {
+      "zh": "揣測某人",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Persuade an NPC": {
+      "zh": "說服一名 NPC",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Read a Tense Situation": {
+      "zh": "審度情勢",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Trick an NPC": {
+      "zh": "欺騙一名 NPC",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Trust Fate": {
+      "zh": "相信命運",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Wreck Something": {
+      "zh": "破壞東西",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Help or Interfere": {
+      "zh": "幫助或干涉",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Plead with a PC": {
+      "zh": "懇求一名 PC",
+      "status": "approved",
+      "category": "basic",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Engage in Melee": {
+      "zh": "近距交戰",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Grapple an Enemy": {
+      "zh": "貼身搏鬥",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Target Someone": {
+      "zh": "瞄準射擊",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Cleave": {
+      "zh": "劈開護甲",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Confuse Senses": {
+      "zh": "迷惑感官",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Disarm": {
+      "zh": "解除武裝",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Harry a Group": {
+      "zh": "擾亂團體",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Improvise Weapon": {
+      "zh": "製作武器",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Parry": {
+      "zh": "招架",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Quick Shot": {
+      "zh": "快速射擊",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Storm a Group": {
+      "zh": "突襲團體",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Trick Shot": {
+      "zh": "技巧射擊",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Vicious Strike": {
+      "zh": "兇惡打擊",
+      "status": "approved",
+      "category": "weapons",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Ask for a Favor": {
+      "zh": "請求恩惠",
+      "status": "approved",
+      "category": "reputation",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Meet Someone Important": {
+      "zh": "會見重要人物",
+      "status": "approved",
+      "category": "reputation",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Sway an NPC": {
+      "zh": "動搖一名 NPC",
+      "status": "approved",
+      "category": "reputation",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Command Resources": {
+      "zh": "要求資源",
+      "status": "approved",
+      "category": "reputation",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Draw Attention": {
+      "zh": "吸引注意",
+      "status": "approved",
+      "category": "reputation",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Make a Pointed Threat": {
+      "zh": "尖銳威脅",
+      "status": "approved",
+      "category": "reputation",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Break Something": {
+      "zh": "打破東西",
+      "status": "approved",
+      "category": "risks",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Detection": {
+      "zh": "被發現",
+      "status": "approved",
+      "category": "risks",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Draw Unwanted Attention": {
+      "zh": "引起不必要的注意",
+      "status": "approved",
+      "category": "risks",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Expend Resources": {
+      "zh": "消耗資源",
+      "status": "approved",
+      "category": "risks",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Leave Evidence": {
+      "zh": "留下證據",
+      "status": "approved",
+      "category": "risks",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Plunge into Danger": {
+      "zh": "陷入險境",
+      "status": "approved",
+      "category": "risks",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Take Too Long": {
+      "zh": "花費太多時間",
+      "status": "approved",
+      "category": "risks",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Weak Result": {
+      "zh": "不如預期的結果",
+      "status": "approved",
+      "category": "risks",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Arrow-proof": {
+      "zh": "防箭",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Blunted": {
+      "zh": "鈍",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Bulky": {
+      "zh": "龐大",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Catfolk Steel": {
+      "zh": "貓鋼",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Ceremonial": {
+      "zh": "儀式",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Comfortable": {
+      "zh": "舒適",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Cumbersome": {
+      "zh": "笨重",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Durable": {
+      "zh": "耐用",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Eaglecraft": {
+      "zh": "鷹工藝",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Fast": {
+      "zh": "迅速",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Flexible": {
+      "zh": "靈活",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Foxfolk Steel": {
+      "zh": "狐鋼",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Fragile": {
+      "zh": "脆弱",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Friendly": {
+      "zh": "友善",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Hair Trigger": {
+      "zh": "輕觸扳機",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Hated": {
+      "zh": "厭惡",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Healer’s Kit": {
+      "zh": "治療包",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Heavy Bludgeon": {
+      "zh": "重擊",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Heavy Draw Weight": {
+      "zh": "重磅弓",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Iron Bolts": {
+      "zh": "鐵栓",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Large": {
+      "zh": "大型",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Luxury": {
+      "zh": "奢華",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Mighty": {
+      "zh": "強力",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Mousefolk Steel": {
+      "zh": "鼠鋼",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Oiled String": {
+      "zh": "油弦",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Quick": {
+      "zh": "迅捷",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Rabbitfolk Steel": {
+      "zh": "兔鋼",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Reach": {
+      "zh": "長柄",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Refreshing": {
+      "zh": "清爽",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Sharp": {
+      "zh": "鋒利",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Shoddy": {
+      "zh": "偽劣",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Short Limbs": {
+      "zh": "短肢",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Signature": {
+      "zh": "著名",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Slow": {
+      "zh": "緩慢",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Thick": {
+      "zh": "厚盾",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Thief Kit": {
+      "zh": "盜賊包",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Throwable": {
+      "zh": "可投擲",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Tightly Woven": {
+      "zh": "緊密編織",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Tricky": {
+      "zh": "詭計",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Ugly": {
+      "zh": "醜陋",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Unassuming": {
+      "zh": "不起眼",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Unwieldy": {
+      "zh": "難以揮舞",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Versatile": {
+      "zh": "萬用",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Weighty": {
+      "zh": "沉重",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Wicked": {
+      "zh": "邪惡",
+      "status": "approved",
+      "category": "tags",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Protector": {
+      "zh": "保護人",
+      "status": "approved",
+      "category": "connections",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Partner": {
+      "zh": "夥伴",
+      "status": "approved",
+      "category": "connections",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Watcher": {
+      "zh": "觀察者",
+      "status": "approved",
+      "category": "connections",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Friend": {
+      "zh": "朋友",
+      "status": "approved",
+      "category": "connections",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Professional": {
+      "zh": "專業／同儕",
+      "status": "approved",
+      "category": "connections",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Family": {
+      "zh": "家人",
+      "status": "approved",
+      "category": "connections",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Adventurer": {
+      "zh": "冒險者",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Arbiter": {
+      "zh": "仲裁者",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Harrier": {
+      "zh": "劫盜者",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Ranger": {
+      "zh": "守林人",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Ronin": {
+      "zh": "浪人",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Scoundrel": {
+      "zh": "流氓",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Thief": {
+      "zh": "盜賊",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Tinker": {
+      "zh": "工匠",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Vagrant": {
+      "zh": "無賴",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Champion": {
+      "zh": "勇士",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Chronicler": {
+      "zh": "史官",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Exile": {
+      "zh": "流亡者",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Envoy": {
+      "zh": "使節",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Heretic": {
+      "zh": "異端者",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Pirate": {
+      "zh": "海盜",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Prince": {
+      "zh": "繼承者",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Raconteur": {
+      "zh": "說書人",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Raider": {
+      "zh": "掠奪者",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Seeker": {
+      "zh": "探尋者",
+      "status": "approved",
+      "category": "扮演書",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "The Marquisate": {
+      "zh": "貓咪貴族",
+      "status": "approved",
+      "category": "陣營",
+      "decision": "使用者指定正式譯名",
+      "forbidden": []
+    },
+    "The Eyrie Dynasties": {
+      "zh": "飛鷹王朝",
+      "status": "approved",
+      "category": "陣營",
+      "decision": "使用者指定正式譯名",
+      "forbidden": []
+    },
+    "The Woodland Alliance": {
+      "zh": "森林聯盟",
+      "status": "approved",
+      "category": "陣營",
+      "decision": "使用者指定正式譯名",
+      "forbidden": []
+    },
+    "The Denizens": {
+      "zh": "茂林居民",
+      "status": "approved",
+      "category": "陣營",
+      "decision": "使用者指定正式譯名",
+      "forbidden": []
+    },
+    "The Riverfolk Company": {
+      "zh": "河岸商會",
+      "status": "approved",
+      "category": "陣營",
+      "decision": "使用者指定正式譯名",
+      "forbidden": []
+    },
+    "The Corvid Conspiracy": {
+      "zh": "陰謀羽黨",
+      "status": "approved",
+      "category": "陣營",
+      "decision": "使用者指定正式譯名",
+      "forbidden": []
+    },
+    "The Grand Duchy": {
+      "zh": "鼴鼠地國",
+      "status": "approved",
+      "category": "陣營",
+      "decision": "使用者指定正式譯名",
+      "forbidden": []
+    },
+    "The Lizard Cult": {
+      "zh": "蜥蜴神教",
+      "status": "approved",
+      "category": "陣營",
+      "decision": "使用者指定正式譯名",
+      "forbidden": []
+    },
+    "Acrobatics": {
+      "zh": "雜技",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Blindside": {
+      "zh": "暗算",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Counterfeit": {
+      "zh": "偽造",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Disable Device": {
+      "zh": "拆除裝置",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Hide": {
+      "zh": "隱藏",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Pick Lock": {
+      "zh": "開鎖",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Pickpocket": {
+      "zh": "扒竊",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Sleight of Hand": {
+      "zh": "巧手",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Sneak": {
+      "zh": "潛行",
+      "status": "approved",
+      "category": "專長",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Injury": {
+      "zh": "創傷",
+      "status": "approved",
+      "category": "名詞",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Exhaustion": {
+      "zh": "疲勞",
+      "status": "approved",
+      "category": "名詞",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Depletion": {
+      "zh": "消耗",
+      "status": "approved",
+      "category": "名詞",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Wear": {
+      "zh": "磨損",
+      "status": "approved",
+      "category": "名詞",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Morale": {
+      "zh": "士氣",
+      "status": "approved",
+      "category": "名詞",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Hold": {
+      "zh": "扣住",
+      "status": "approved",
+      "category": "名詞",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "+1 forward": {
+      "zh": "下次 +1",
+      "status": "approved",
+      "category": "名詞",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Harm": {
+      "zh": "傷害",
+      "status": "approved",
+      "category": "名詞",
+      "decision": "既有成果用語",
+      "forbidden": []
+    },
+    "Battle Fury": {
+      "zh": "戰鬥狂怒",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Charge": {
+      "zh": "衝鋒",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Hurl": {
+      "zh": "猛擲",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Lunge": {
+      "zh": "突刺",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Paired Fighting": {
+      "zh": "雙人協戰",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Hammerpaws": {
+      "zh": "鐵拳",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Pinpoint Shot": {
+      "zh": "精準射擊",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Long Shot": {
+      "zh": "超遠射擊",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Point-Blank Shot": {
+      "zh": "貼身射擊",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Switch Hands": {
+      "zh": "換手",
+      "status": "candidate",
+      "category": "擴充weapons",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Endorse a New Leader": {
+      "zh": "擁立新領袖",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Vilify a Leader": {
+      "zh": "詆毀領袖",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Lead Troops in Battle": {
+      "zh": "率軍作戰",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Intimidate Enemy Troops": {
+      "zh": "威嚇敵軍",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Plan New Project": {
+      "zh": "規劃新工程",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Wield Bureaucracy": {
+      "zh": "運用官僚體系",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Incite Revolt": {
+      "zh": "煽動起義",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Preach to the Choir": {
+      "zh": "向信眾佈道",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Conduct Sanctioned Trade": {
+      "zh": "締結商會認可交易",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Tap Criminal Networks": {
+      "zh": "動用犯罪網絡",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Requisition Permits": {
+      "zh": "申請許可",
+      "status": "candidate",
+      "category": "擴充reputation",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Cover Up": {
+      "zh": "掩蓋痕跡",
+      "status": "candidate",
+      "category": "擴充feats",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Mastermind": {
+      "zh": "策劃指揮",
+      "status": "candidate",
+      "category": "擴充feats",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Set Trap": {
+      "zh": "設置陷阱",
+      "status": "candidate",
+      "category": "擴充feats",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Tracking": {
+      "zh": "追蹤",
+      "status": "candidate",
+      "category": "擴充feats",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Use Device": {
+      "zh": "操作裝置",
+      "status": "candidate",
+      "category": "擴充feats",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Antimilitarist": {
+      "zh": "反軍國主義",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Atonement": {
+      "zh": "贖罪",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Development": {
+      "zh": "建設",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Devotion": {
+      "zh": "虔信",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Discord": {
+      "zh": "挑撥",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Esprit de Corps": {
+      "zh": "袍澤之情",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Folk Hero": {
+      "zh": "民間英雄",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Glory": {
+      "zh": "榮耀",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Mysteries": {
+      "zh": "謎團",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Partisan": {
+      "zh": "陣營支持者",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Traveler": {
+      "zh": "旅者",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Wanted": {
+      "zh": "通緝犯",
+      "status": "candidate",
+      "category": "擴充drives",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Braggart": {
+      "zh": "自誇",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Commander": {
+      "zh": "指揮者",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Cowardly": {
+      "zh": "膽怯",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Curious": {
+      "zh": "好奇",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Generous": {
+      "zh": "慷慨",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Gossip": {
+      "zh": "愛傳閒話",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Improviser": {
+      "zh": "即興應變",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Inspiring": {
+      "zh": "鼓舞人心",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Martyr": {
+      "zh": "殉道者",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Muckraker": {
+      "zh": "揭弊者",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Populist": {
+      "zh": "民粹者",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Vain": {
+      "zh": "愛出風頭",
+      "status": "candidate",
+      "category": "擴充natures",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Battle-Sibling": {
+      "zh": "戰鬥手足",
+      "status": "candidate",
+      "category": "擴充connections",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Confidant": {
+      "zh": "知己",
+      "status": "candidate",
+      "category": "擴充connections",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Enabler": {
+      "zh": "助長者",
+      "status": "candidate",
+      "category": "擴充connections",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Lover": {
+      "zh": "戀人",
+      "status": "candidate",
+      "category": "擴充connections",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Protégé": {
+      "zh": "門生",
+      "status": "candidate",
+      "category": "擴充connections",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Rival": {
+      "zh": "競爭對手",
+      "status": "candidate",
+      "category": "擴充connections",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Accurate": {
+      "zh": "準確",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Barbed": {
+      "zh": "倒鉤",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Blend": {
+      "zh": "融入",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Cathartic": {
+      "zh": "紓壓",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Common": {
+      "zh": "常見",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Disarming": {
+      "zh": "卸下戒心",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Distracting": {
+      "zh": "分散注意",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Disguised": {
+      "zh": "偽裝",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Hidden": {
+      "zh": "隱藏",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Impressive": {
+      "zh": "威風",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Incendiary": {
+      "zh": "煽動",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Intimidating": {
+      "zh": "威嚇",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Invigorating": {
+      "zh": "振奮",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Legendary": {
+      "zh": "傳奇",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Light": {
+      "zh": "輕量",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Nasty": {
+      "zh": "狠辣",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Poison": {
+      "zh": "毒素",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Precise": {
+      "zh": "精準",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Reinforced": {
+      "zh": "加固",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Sturdy": {
+      "zh": "結實",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Conspicuous": {
+      "zh": "顯眼",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Cursed": {
+      "zh": "詛咒",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Dangerous": {
+      "zh": "危險",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Hard to Hold": {
+      "zh": "難以握持",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Identifiable": {
+      "zh": "可辨識",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Immoral": {
+      "zh": "不道德",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Incriminating": {
+      "zh": "罪證",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Makeshift": {
+      "zh": "臨時拼湊",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Noisy": {
+      "zh": "吵雜",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Scarce": {
+      "zh": "稀缺",
+      "status": "candidate",
+      "category": "擴充tags",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Lizard Cult Ritual Blade": {
+      "zh": "蜥蜴神教儀式刃",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Spiked Flail/Chain": {
+      "zh": "尖刺連枷／鎖鏈",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Spring-loaded Wristblade": {
+      "zh": "彈簧腕刃",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Lizard Stinger": {
+      "zh": "蜥蜴毒刺",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Dueling Rapier": {
+      "zh": "決鬥細劍",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Bird Talon Gauntlets": {
+      "zh": "鳥爪護手",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Royal Oak Bow": {
+      "zh": "皇家橡木弓",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Riverboat Paddle": {
+      "zh": "河船槳",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Stiletto Dagger": {
+      "zh": "細尖匕首",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Automatic Crossbow": {
+      "zh": "連發弩",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Polearm": {
+      "zh": "長柄武器",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Harp Bow": {
+      "zh": "豎琴弓",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Sword Cane": {
+      "zh": "手杖劍",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Blade of the Last Dynasty / Sword of the True King": {
+      "zh": "末代王朝之刃／真王之劍",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Bear Skull Helmet": {
+      "zh": "熊顱頭盔",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Spiked Shield": {
+      "zh": "尖刺盾",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Heavy Gambeson": {
+      "zh": "厚重棉甲",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Scavenged Armor": {
+      "zh": "拾荒護甲",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Turtle Shell Pavise": {
+      "zh": "龜殼大盾",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Collapsible Paraglider": {
+      "zh": "折疊滑翔傘",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Libelous Documents": {
+      "zh": "誹謗文件",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Forest Cloak": {
+      "zh": "森林斗篷",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Portable Easel & Paints": {
+      "zh": "攜帶式畫架與顏料",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Corvid Explosives": {
+      "zh": "羽黨爆炸物",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Box of Fine Snuff": {
+      "zh": "精緻鼻煙盒",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Belt of Smoke Bombs": {
+      "zh": "煙霧彈腰帶",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Masterwork Instrument": {
+      "zh": "名匠樂器",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Grappling Gun": {
+      "zh": "鉤索槍",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    },
+    "Performer’s Garb": {
+      "zh": "表演服",
+      "status": "candidate",
+      "category": "擴充premade",
+      "decision": "本次補譯採用；可再校訂",
+      "forbidden": []
+    }
+  }
+}

@@ -1,0 +1,1636 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "id": "player:basic:core:attempt-a-roguish-feat",
+      "sha256": "11015ace57d6eee68cec2b8aa9be9ea9ae344b1a95f257065f65540cc076da48",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "68–72"
+    },
+    {
+      "id": "player:basic:core:figure-someone-out",
+      "sha256": "1dc78ac4d39856703d4e8ddf6269df7dae29fafbd6d2cdd9e5207bdb289ee85e",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "73–74"
+    },
+    {
+      "id": "player:basic:core:persuade-an-npc",
+      "sha256": "fb472edda3b1752be81825a890b8262d61ee4964b9440df5264b5f272b5dd849",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "75–76"
+    },
+    {
+      "id": "player:basic:core:read-a-tense-situation",
+      "sha256": "a3eb9e3bb6592760335f5c555e5edd0aa58dbd8b22b8a5a0a8a030b6fa60936e",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "77–78"
+    },
+    {
+      "id": "player:basic:core:trick-an-npc",
+      "sha256": "1860cd38eee49b5aeaeb72bf12ce46166c4d239aedf5d5e6755af3df134e6e32",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "79–80"
+    },
+    {
+      "id": "player:basic:core:trust-fate",
+      "sha256": "c4d7c6b525a324138b676098cee474e4fc5caa13fecbd56af464a3d2993b093a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "82–83"
+    },
+    {
+      "id": "player:basic:core:wreck-something",
+      "sha256": "4dcafa0f120a6ad06e3a80c90b54064cd3d061819015fa78e8687c4ddabc4d5e",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "84–85"
+    },
+    {
+      "id": "player:basic:core:help-or-interfere",
+      "sha256": "fafa37681625f8a8bf9d3c103ff66c2d71a68fe41f8414e2f322756b11581320",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "86–87"
+    },
+    {
+      "id": "player:basic:core:plead-with-a-pc",
+      "sha256": "ec9141e25fb71adc92c0d5907928fd12a799491a6ac27a1cc88f56857664db2c",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "88"
+    },
+    {
+      "id": "player:weapons:core:engage-in-melee",
+      "sha256": "529170dd8754d29c1230b9c13289aa7a5c9d97183f7f97a3bf805c2258917dc5",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "90–93"
+    },
+    {
+      "id": "player:weapons:core:grapple-an-enemy",
+      "sha256": "3011b37991436fd872505909d77c98dffa485cca451035167cb55812be07c638",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "94–95"
+    },
+    {
+      "id": "player:weapons:core:target-someone",
+      "sha256": "d9aadc8ceeeb31082fcddd6476d1e8420042cdb3bdb036afb4a7e429adf5d4fb",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "96"
+    },
+    {
+      "id": "player:weapons:core:cleave",
+      "sha256": "5cd21c1cb1e9b43e9160c3a6962edb1163ca880111df7e0c4cb0b3f0b6b3d846",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "97–98"
+    },
+    {
+      "id": "player:weapons:core:confuse-senses",
+      "sha256": "66e3478126ca6056a3921356b62265d45b7cc35b8339c44becaf7ab3a49807d3",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "98"
+    },
+    {
+      "id": "player:weapons:core:disarm",
+      "sha256": "ab0061a9c0edb12c02441cce1d291d17f37e0568a1373945cb840e4dff7e3380",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "99–100"
+    },
+    {
+      "id": "player:weapons:core:harry-a-group",
+      "sha256": "7500641b5e8edbc1b97bdf674b52a804aeb6c68ff19e5dea8ad28166f7a59599",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "100–101"
+    },
+    {
+      "id": "player:weapons:core:improvise-weapon",
+      "sha256": "cded167e1f12e4e10878b99dc9aad8064eba5da2327284143f0c4936ff8de6cc",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "101–102"
+    },
+    {
+      "id": "player:weapons:core:parry",
+      "sha256": "44fa055edc4cf0d0679e1e633c05b17b59c2689933f37514043128de31e976ea",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "102–103"
+    },
+    {
+      "id": "player:weapons:core:quick-shot",
+      "sha256": "09db3c72414cc0a90641eb3a4ead3ada786ae3de34feecdbe1f1149a99cb2a44",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "104–105"
+    },
+    {
+      "id": "player:weapons:core:storm-a-group",
+      "sha256": "870c8a2dd6e6ee30865a049f6424cc2a7077958c44835ac1b21e2ffa85b4a7b7",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "106–107"
+    },
+    {
+      "id": "player:weapons:core:trick-shot",
+      "sha256": "5f01365a8a638ff939add1690c5b9057a062557510624819f0c724dabf474ac4",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "107–108"
+    },
+    {
+      "id": "player:weapons:core:vicious-strike",
+      "sha256": "a7837fdceb0dd5e98dcd51bfd7d9d736da49b450b4bc79aea0f1382082f876d2",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "109"
+    },
+    {
+      "id": "player:reputation:core:ask-for-a-favor",
+      "sha256": "6ec455aa2a584f7b59479ad7978ccc4217018b8a1a518c4da3bfb6159ee7f08a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "110–111, 112"
+    },
+    {
+      "id": "player:reputation:core:meet-someone-important",
+      "sha256": "8e5ece94044e913f182fbf3aaeb17206964e04f18b23bd6941da5fd589c44b8a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "110–111, 113–114"
+    },
+    {
+      "id": "player:reputation:core:sway-an-npc",
+      "sha256": "5d392d4893a201c05d31ef8f9392866802d3d996a3412f3fd10aae17df149004",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "110–111, 117"
+    },
+    {
+      "id": "player:reputation:core:command-resources",
+      "sha256": "e9e6dcfc3a38b532052bb6e408951ed92e5a4a2e367b7973af51e23e8717beee",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "110–111, 119"
+    },
+    {
+      "id": "player:reputation:core:draw-attention",
+      "sha256": "044e95dced10458e2b710e1604093ab11ff8d3f9d021f0c09266e5a15b995fcc",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "110–111, 115–116"
+    },
+    {
+      "id": "player:reputation:core:make-a-pointed-threat",
+      "sha256": "70b4f764b7b24ad82eabb4cdd2ebdec75f653b1ce8009e81e819bf8726a4e0ae",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "110–111, 118–119"
+    },
+    {
+      "id": "player:weapons:exp:battle-fury",
+      "sha256": "7b5cc3aa629409fb12c200a3b567eee41f87391eb8bc8335e7b97e94ef5fbc34",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "25"
+    },
+    {
+      "id": "player:weapons:exp:charge",
+      "sha256": "c307ec4f6d9346556f7e7bf0abea024724988c8a6d79ca69afa01c60737c794a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "25"
+    },
+    {
+      "id": "player:weapons:exp:hurl",
+      "sha256": "d6ae792a566cd24c8df59b4ffb6040a8e0ad70d5957d464f574da3415018fc54",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "26"
+    },
+    {
+      "id": "player:weapons:exp:lunge",
+      "sha256": "961d86246bd6787e4ded80cdc7a71ead28e2e6c96cc04783a7bd181e515f5653",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "26"
+    },
+    {
+      "id": "player:weapons:exp:paired-fighting",
+      "sha256": "52ba2199c376ce93cce15f602ced1e235d376e3e523b4aa819192e184aa25c29",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "27"
+    },
+    {
+      "id": "player:weapons:exp:hammerpaws",
+      "sha256": "308f7cedc30a2c4e3e7ef0160b6765511cac80b29d8630cd432013d4e020f542",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "28"
+    },
+    {
+      "id": "player:weapons:exp:pinpoint-shot",
+      "sha256": "cc1f9a96c4384c05f7ff97302e4dfb3ad4fe2a07a7493e8dc991bb47cd64eb39",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "29"
+    },
+    {
+      "id": "player:weapons:exp:long-shot",
+      "sha256": "aad3a6e74e56f91acc3eb37511af0a27ec0a31a0d780b0eb804bf802cb25ed9c",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "29"
+    },
+    {
+      "id": "player:weapons:exp:point-blank-shot",
+      "sha256": "2a415de8cfdf6db94f083234af5acd04377512c4691f0d9622dde4290b1fee0a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "30"
+    },
+    {
+      "id": "player:weapons:exp:switch-hands",
+      "sha256": "b4d051d160ff600f4fe3a2431ba45705a7732fc73f423f337a79cc45545cfd1b",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "30"
+    },
+    {
+      "id": "player:reputation:exp:endorse-a-new-leader",
+      "sha256": "3ecf5d04c472a36b4762d34b63acb858ce65982f80a52b53e8a8d38f1c2bbc84",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "31"
+    },
+    {
+      "id": "player:reputation:exp:vilify-a-leader",
+      "sha256": "86a42cc3ede9a3449187c1302d0d96fb046efa01065cbc36970250c64f37498a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "32"
+    },
+    {
+      "id": "player:reputation:exp:lead-troops-in-battle",
+      "sha256": "fa8ca1d3e1e029835b2e579426dc7f52148719e7615c49689b9e4e54e313fefb",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "33"
+    },
+    {
+      "id": "player:reputation:exp:intimidate-enemy-troops",
+      "sha256": "ac3a6510ebc6e8fe5f070b8167f07b5bd7b1b22cfc3570a627e4aaf74940c20c",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "34–35"
+    },
+    {
+      "id": "player:reputation:exp:plan-new-project",
+      "sha256": "b3909d3358e1cf5794e95b708dc99b1094f5efa804868c753ace5896247c30a7",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "35"
+    },
+    {
+      "id": "player:reputation:exp:wield-bureaucracy",
+      "sha256": "9d14d22d48eb714d30aeed801173e8474bd70065644411d77ecdeddf2b5e18b5",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "36"
+    },
+    {
+      "id": "player:reputation:exp:incite-revolt",
+      "sha256": "c95f583e2885d08be1afee7cf4445cfef90ca83610d720490c066b5921ce9487",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "37"
+    },
+    {
+      "id": "player:reputation:exp:preach-to-the-choir",
+      "sha256": "21d819df13d32aded12fc54ca23ce3aeedfb7e924d3b20580c494f0dfb6d1d86",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "38"
+    },
+    {
+      "id": "player:reputation:exp:conduct-sanctioned-trade",
+      "sha256": "b0d3076a6f889bc1208952773b9ada95dd8caaf6dabb1cc54445c39981e03536",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "39"
+    },
+    {
+      "id": "player:reputation:exp:tap-criminal-networks",
+      "sha256": "4e5b389c7fc4a778fd5db8f5f00829642f6122f774d1ce98028022d2e65f80c2",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "40"
+    },
+    {
+      "id": "player:reputation:exp:requisition-permits",
+      "sha256": "87627b7b6255835d694152ed16cabf9f1ddd96a0d4f1b8fabcc2025685823cdf",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "41"
+    },
+    {
+      "id": "player:feats:exp:cover-up",
+      "sha256": "2c94de8377fa2802881d55dac9dfa68ba8769a2562d0e82e5cea87398994b8cb",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "42–43"
+    },
+    {
+      "id": "player:feats:exp:mastermind",
+      "sha256": "f8e4e6be658449eeafcf4f6c4bb52b43da15847ad6f6c5eeac99b441705a2ef4",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "42–43"
+    },
+    {
+      "id": "player:feats:exp:set-trap",
+      "sha256": "cff06b71620f71672f452af288346b62da0153edee5e4de7cd5bd5d7ced52c33",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "43"
+    },
+    {
+      "id": "player:feats:exp:tracking",
+      "sha256": "1bec9fb4b30d606e169fed78fd820962cda3116f884c338a116e5e8248241e40",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "43–44"
+    },
+    {
+      "id": "player:feats:exp:use-device",
+      "sha256": "67ac7a7539263b112f10d785410e55821d0b0b00b9674aa85752136921b108d3",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "43–44"
+    },
+    {
+      "id": "player:drives:exp:antimilitarist",
+      "sha256": "fa25ab327de009ac13d4d48665b7dbbb94c208b605d42bfc8296c7097b361f2c",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "45"
+    },
+    {
+      "id": "player:drives:exp:atonement",
+      "sha256": "cc213a0c1559d5f7b9418d2f2db4250a512ae2b2ecc9cbb4e170120c8215b03b",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "45"
+    },
+    {
+      "id": "player:drives:exp:development",
+      "sha256": "f33404cba1ee4e02ef1ce82675f70b975f31b4ec1c90611f42a20024ab724b7a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "46"
+    },
+    {
+      "id": "player:drives:exp:devotion",
+      "sha256": "205229e2cc7c5c0a67103e9c18cade338df1867ac468c5bc0ae538fdabefd372",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "46"
+    },
+    {
+      "id": "player:drives:exp:discord",
+      "sha256": "862dc5c53f5512f187c54366bdc0c617cb6744453d4a2c8037a60f98ddb9e96c",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "46"
+    },
+    {
+      "id": "player:drives:exp:esprit-de-corps",
+      "sha256": "cbcaa9a9c5ba54ec04af22ca3dff3637fd47601b94f2170c32579f323243c776",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "47"
+    },
+    {
+      "id": "player:drives:exp:folk-hero",
+      "sha256": "bb5fe8c5fa680d0ecfe4a186c2f147945e1b5db87851da5b499948888c10054b",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "47"
+    },
+    {
+      "id": "player:drives:exp:glory",
+      "sha256": "a5c7a32b263f453a822a062aa43a628b477f3357b00b08d2f527856a45862bdd",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "47"
+    },
+    {
+      "id": "player:drives:exp:mysteries",
+      "sha256": "42f29cc5dd4fd77fed2b91ace1c96eec909e75ee67b56b6c69c8ea511af6254b",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "48"
+    },
+    {
+      "id": "player:drives:exp:partisan",
+      "sha256": "f33fd6132ef5120c589fe275d8317c159bdc1c3542d042756d075d11e179dbdf",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "48"
+    },
+    {
+      "id": "player:drives:exp:traveler",
+      "sha256": "da84bfb1258a1a755e1e49a535a513cbd615a7fdcc1af97283dcaf7281571896",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "48"
+    },
+    {
+      "id": "player:drives:exp:wanted",
+      "sha256": "8a8799326f400bde7fc6189d4b0378df27a65f06d65d1dcecaa75c617ddb3943",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "49"
+    },
+    {
+      "id": "player:natures:exp:braggart",
+      "sha256": "fffdeb5679d78da567d4f31558aca5d5a38ff046b92b724d63414cc9b7759ca8",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "50"
+    },
+    {
+      "id": "player:natures:exp:commander",
+      "sha256": "29e1aefd4d4ede53a83a2889c4a029b30332dbada0d34f4ea36590eb75798605",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "50"
+    },
+    {
+      "id": "player:natures:exp:cowardly",
+      "sha256": "d5d3e62214cbf73f4a64dfa8d68fc674a629dd1266ee740553278013cacbd510",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "51"
+    },
+    {
+      "id": "player:natures:exp:curious",
+      "sha256": "21d9526d3b7434b513f5d139be6e62fd4598001bfd7e3bcb93379ab44df27cbd",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "51"
+    },
+    {
+      "id": "player:natures:exp:generous",
+      "sha256": "ddad0154d043396468be9a8dc8ea1d361393e4e0f2bf8da495c3764f533fb352",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "51"
+    },
+    {
+      "id": "player:natures:exp:gossip",
+      "sha256": "d36008d9d798a7435f16679ceda225afc041c08c0c5d698567608255917a5990",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "52"
+    },
+    {
+      "id": "player:natures:exp:improviser",
+      "sha256": "dd79a77302e07e790385748ad21f35b5c2f232dee176427217b599460e44c652",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "52"
+    },
+    {
+      "id": "player:natures:exp:inspiring",
+      "sha256": "49c1a9fc0c4a8b48a19ca786d8aafde739006be14b4212d5a75d64dff66d89a4",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "52"
+    },
+    {
+      "id": "player:natures:exp:martyr",
+      "sha256": "4b4cc27b9b647f3d84847fce5909ede733b4aefc49a30ebb66f5d1be507e36c8",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "53"
+    },
+    {
+      "id": "player:natures:exp:muckraker",
+      "sha256": "cc42e8d7231b02881fefad715fa68b62c7f3468287c3ad41e5dac89088810e9b",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "53"
+    },
+    {
+      "id": "player:natures:exp:populist",
+      "sha256": "94684f3a76f9cc27c3ef6790fe74f438fadbc442e62ef0a4aa495c96a334c70f",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "53"
+    },
+    {
+      "id": "player:natures:exp:vain",
+      "sha256": "760a48403b30731a96e69ac0117ab2bc415295630cec33716268b81f17c86f39",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "54"
+    },
+    {
+      "id": "player:connections:exp:battle-sibling",
+      "sha256": "3d3df8d6ec3dbeb27e0284b8619802b0807b2e9dd1bfb834612f49c1dc766750",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "54"
+    },
+    {
+      "id": "player:connections:exp:confidant",
+      "sha256": "c2f5776f9db043e687d238c88772eaff8c5569d8c60b35cac6cd2ec58df93702",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "55"
+    },
+    {
+      "id": "player:connections:exp:enabler",
+      "sha256": "a5a7ff0327eea6ce04d0afdc22e5db55903ed754ec32558201d4d64bdedf2f3e",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "55"
+    },
+    {
+      "id": "player:connections:exp:lover",
+      "sha256": "4afb8371d5871106ee4f0f0259b0dc59e0808a0c609e26d1a81da1e6c5fe1e9c",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "55–56"
+    },
+    {
+      "id": "player:connections:exp:prot-g",
+      "sha256": "58b9a11105079abc4005a950cdc044f61395e3c46d2ef037c5effe38da1fcd7d",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "56"
+    },
+    {
+      "id": "player:connections:exp:rival",
+      "sha256": "6d2987faa37a63b1f675310da8443fcfa0b02cce0244a3a80c31fa307b927fe4",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "56"
+    },
+    {
+      "id": "player:tags:exp:accurate",
+      "sha256": "9ec7cd01baa19d8cd0c925570913c9301e29c1ba3bdd966f1ca914a8507c56e9",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "81"
+    },
+    {
+      "id": "player:tags:exp:barbed",
+      "sha256": "4a0c52e65bc5f444a87b8e1c5143d061f7cb914b389a51d0c8738beabf000b81",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "81"
+    },
+    {
+      "id": "player:tags:exp:blend",
+      "sha256": "9fe394f8ef57e56ed62fc2f90be4684eeb39c9ae1da79727ebbd5531ece64753",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "81"
+    },
+    {
+      "id": "player:tags:exp:cathartic",
+      "sha256": "8b196014d5d1b25ad059cb8e1d7d4953cdce64aacd397afb8385c830c35ffcde",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:common",
+      "sha256": "c9ad0bb8a941eeb65e0d236e272fe551f4f645abc851e52c624c58e44c76e73d",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:disarming",
+      "sha256": "6e0d2ca5578ff9c7a022cb58325f30ce34bc246d87bf9c84f43791b15694a002",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:distracting",
+      "sha256": "6002c8546215457dc8261708372faeb161bebd432aa4da0bba49c839e3a2c6a3",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:disguised",
+      "sha256": "dabbf87472926797fcceae73ec20e5e5b66c20529d8e3103c357f5e0dc988071",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:hidden",
+      "sha256": "de9f84104fb6880dd95c98c2785713196b0f4e50e00cb85dcb61938425fd76a4",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:impressive",
+      "sha256": "9f436d19fb18b61a5aa50b492159cb8bc1515500105abea0969a10266642caba",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:incendiary",
+      "sha256": "023efcb95ba5b8c348290073497244ac5de97fee4385894f8c270ec621f8ae0b",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:intimidating",
+      "sha256": "0fbcdc7b52f9476557c8cf9891006d36bc3e40ec31ddc47f3d1c298128b1011d",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:inspiring",
+      "sha256": "465aa4a2f53bf220f344291eb421157123e60f64b731b1f5e572cae2e972a9e6",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:invigorating",
+      "sha256": "b5cddf8a0f12d3407c21c5c7b56cf5f9b842335b4de123624fae791d60caa7d6",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "82"
+    },
+    {
+      "id": "player:tags:exp:legendary",
+      "sha256": "079296f58463a927f8dd54743a11486690a3b4d952f7853e3707b2e56a901859",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "83"
+    },
+    {
+      "id": "player:tags:exp:light",
+      "sha256": "62e55c2acaeb9804a56019727fd7ad2effcae97f34003b434551a72ed4c82ec8",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "83"
+    },
+    {
+      "id": "player:tags:exp:nasty",
+      "sha256": "35097a9b93790deb03edd718a980faeea66810a943cdb8cea9145b50db146f7c",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "83"
+    },
+    {
+      "id": "player:tags:exp:poison",
+      "sha256": "9da3eecfb12dca7df8f81f5d628e208d18cfbc20022f49e8f5a6656462d085a5",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "83"
+    },
+    {
+      "id": "player:tags:exp:precise",
+      "sha256": "5236386b7ef2c28866f92fa3bcaf1e36186f113af90de9d8ba7ec91bd0a49d8a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "83"
+    },
+    {
+      "id": "player:tags:exp:reinforced",
+      "sha256": "01414dbd4082378ffb96c8e84073d45ebb798617fccd4c1a843eb471ba799374",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "83"
+    },
+    {
+      "id": "player:tags:exp:sturdy",
+      "sha256": "510e01c5ef81f793ff56f4cd29df0ba5b48346c778f8742fd5f6bb33e1c7d695",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "83"
+    },
+    {
+      "id": "player:tags:exp:conspicuous",
+      "sha256": "7d6f226ad83fa89b324905603238e7e4bd4027db201e3d3bb9d8ae75a6dc8ec2",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:cursed",
+      "sha256": "4ca1aea6a86167b6f2c0f6325e93acd6175475e20943e250a55a3aa71b497ede",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:dangerous",
+      "sha256": "f813e5349b6a17199d0d2b62bb2b43602e4b270d369db9620fa297da1ffb825f",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:hard-to-hold",
+      "sha256": "ac5e7fea22ec3e093e66d33cb6ceb27f3ad9c37b2b9d4a4278b19fb4594ec802",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:identifiable",
+      "sha256": "fe1afa5bce3742a68d5034fa5cec7f02b3a515739bcdb21403e3955314852fce",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:immoral",
+      "sha256": "5a158ac4c12dccc3acf1540f818479d024017549a8c03e1bb121fd30b88a3956",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:incriminating",
+      "sha256": "97df0dba0082f6f41cd580fff47098e220bb0c884b7206a044d6b234888a0476",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:makeshift",
+      "sha256": "4ab1e06048cb266412fe84f24e3b7bead7a69c2a6c2d564e18193ff0ec0c5bdd",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:noisy",
+      "sha256": "6d2b8db7a11360e317b9925b185e7d0d73e327981a5d8ab455e801dad90a2d65",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:tags:exp:scarce",
+      "sha256": "2f6065d8b2a563aad6fbb93b6b81f4416d40fe83dc7caa36a713986a08f77871",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "84"
+    },
+    {
+      "id": "player:premade:exp:lizard-cult-ritual-blade",
+      "sha256": "0ccf8a207259f41bb98cfac69c49a54344fa2af9ed45ef29e618ab6083caebc5",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "85"
+    },
+    {
+      "id": "player:premade:exp:spiked-flail-chain",
+      "sha256": "40c6a4021c681afbfd90837339b02507dd7e0f0a8c2a9afc9d3599b8f8c87967",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "85"
+    },
+    {
+      "id": "player:premade:exp:spring-loaded-wristblade",
+      "sha256": "41c4b2fae50c74fa4cbaaa38432d42dad4b8294bdd93f14c687b56efd1277a78",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "85"
+    },
+    {
+      "id": "player:premade:exp:lizard-stinger",
+      "sha256": "d60878049d211a4724ab72bb7b7cc9174bd2e4e1da2d9b8d4a51347c783df19e",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "86"
+    },
+    {
+      "id": "player:premade:exp:dueling-rapier",
+      "sha256": "531fd558f149289dd1ed7849084b17d118f1731e5c8ad36fffe24e8cf074a4b2",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "86"
+    },
+    {
+      "id": "player:premade:exp:bird-talon-gauntlets",
+      "sha256": "e4141947c431718d7159873a5f4ee158cae4a015fe72101c6558b078135f93ce",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "86"
+    },
+    {
+      "id": "player:premade:exp:royal-oak-bow",
+      "sha256": "3b968d93ea077a524c21cf5511561a03c220d03ffef40c82a16f5b5deca340ab",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "86"
+    },
+    {
+      "id": "player:premade:exp:riverboat-paddle",
+      "sha256": "533800954f9df11e0072609911297d3ee43e8bd9214b4483e1744304a82e7bfd",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "86"
+    },
+    {
+      "id": "player:premade:exp:stiletto-dagger",
+      "sha256": "5f5bdbeaa2d7e1d30cfd9eac65a058c643eda97bc2b5ace17f91be31d2213d2a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "86"
+    },
+    {
+      "id": "player:premade:exp:automatic-crossbow",
+      "sha256": "56163abbd3dfc102cc7eac95529cc195193d4ae052f80243aef1c5e0106464f0",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "87"
+    },
+    {
+      "id": "player:premade:exp:polearm",
+      "sha256": "7295a5ce2ace40f497840ed02ff9647acad1fa1f17b92aba83afd2ccfa53e664",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "87"
+    },
+    {
+      "id": "player:premade:exp:harp-bow",
+      "sha256": "45045807f9ed3e7cd4a31d841bfe547cc51a726d87b3c0a06fbc4f1c94d1c8fc",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "87"
+    },
+    {
+      "id": "player:premade:exp:sword-cane",
+      "sha256": "b2cfca3cccb3153bc6312e870f18d5949c8564f9db8bef4e12d2cb93a0df7586",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "87"
+    },
+    {
+      "id": "player:premade:exp:blade-of-the-last-dynasty-sword-of-the-true-king",
+      "sha256": "ec468fd2aada57b1f6b3c38e49b60ccd5c5c1d2be6ab6bf544d2c5fda2df6957",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "88"
+    },
+    {
+      "id": "player:premade:exp:bear-skull-helmet",
+      "sha256": "9b2df2d820d9345d149f70d8639f9bb37bd33b9e4435ecfff799b37a839fce79",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "88"
+    },
+    {
+      "id": "player:premade:exp:spiked-shield",
+      "sha256": "05589b061699ff193750c5addb38de622bd0d9e07d2434fd59c6029f3e3d2ce5",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "88"
+    },
+    {
+      "id": "player:premade:exp:heavy-gambeson",
+      "sha256": "b7ccdba80455d12146c96dd58c43a6f7c4a6c5946dc263fe959a9d82f9bea908",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "88"
+    },
+    {
+      "id": "player:premade:exp:scavenged-armor",
+      "sha256": "925fabc10f566387487c335056c997cf7dbae2fa1cbd3d08b670289e621d3224",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "88"
+    },
+    {
+      "id": "player:premade:exp:turtle-shell-pavise",
+      "sha256": "f6803a92f2a1fc9009decfa3487d813e112d64ae0031615713c1041c281ed6c2",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "89"
+    },
+    {
+      "id": "player:premade:exp:collapsible-paraglider",
+      "sha256": "88c6eb54f8e85fbb8cac05ab2c3ffe5d8ffddfd7a79607958b5353f5c8ccc4d8",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "89"
+    },
+    {
+      "id": "player:premade:exp:libelous-documents",
+      "sha256": "d67f6cc39610ac361dcb04ec2697d3828c7053aaf937556ce02700b1035dfd22",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "89"
+    },
+    {
+      "id": "player:premade:exp:forest-cloak",
+      "sha256": "038eefc0444a2988014b075deb49df908bc65520099be39bb8620226029da61d",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "89"
+    },
+    {
+      "id": "player:premade:exp:portable-easel-paints",
+      "sha256": "6e1b3a33b904449f5da2ec1416546d60d6c2f2f8d1482cd79bed282393698f60",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "89"
+    },
+    {
+      "id": "player:premade:exp:corvid-explosives",
+      "sha256": "1e783f59d358d20202ffe1baa098f75a32cb6318d27c53535a9c98d7c151c11f",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "89"
+    },
+    {
+      "id": "player:premade:exp:box-of-fine-snuff",
+      "sha256": "f45806870e8c4447ed51837fcc9c59826a6e0df530760de572dcfb4d32e07019",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "90"
+    },
+    {
+      "id": "player:premade:exp:belt-of-smoke-bombs",
+      "sha256": "404196d3a82d2ba3ae55f15710c3d055ba9ffd599d5e6569007c6aba6af95425",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "90"
+    },
+    {
+      "id": "player:premade:exp:masterwork-instrument",
+      "sha256": "f90aeab5d686c11fab441a2b728d0b21a1e3a966db7b7a558e3a250e3afbd735",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "90"
+    },
+    {
+      "id": "player:premade:exp:grappling-gun",
+      "sha256": "64eec97e77595675ebb5e87b15afd64588af1cb2d736f1c5c4139bc72d5375a8",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "90"
+    },
+    {
+      "id": "player:premade:exp:performer-s-garb",
+      "sha256": "abaa1fa8afdec864244ff622440080bba5ad677627bb5f7674b7e58187328851",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pages": "90"
+    },
+    {
+      "id": "player:rules:core:reputation-track",
+      "sha256": "73e0a9416814e6882a126e642afbbed0202bfddfb12b2bbfceebd36c00ec306a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "52–54、110–111"
+    },
+    {
+      "id": "player:rules:core:flashbacks",
+      "sha256": "7d3a18b0f605a0031896b5279ff7a1bac3f4eb1c1cf53957ee6097ef31b4e32a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "71"
+    },
+    {
+      "id": "player:rules:core:change-playbook",
+      "sha256": "a91b462069829881e6ef5ae930318693208cc3a79a95919c8f34cadc5fa68e1b",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "178–179"
+    },
+    {
+      "id": "player:rules:core:replace-character",
+      "sha256": "37920e7846dc2b369b537c8d24fed2f362d0c96af0d7d1aa580e15b2fa2fcccf",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "179–181"
+    },
+    {
+      "id": "player:rules:core:weapon-ranges-skills",
+      "sha256": "0e69a53066ceebdd1f65fb10f135134c4383226645cee994c81b80feae0b5acc",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "89–91"
+    },
+    {
+      "id": "player:rules:core:secret-faction-loyalties",
+      "sha256": "c2014f690458647ee48a55a3ea38175a34a232223806fac533da3ad29448a74b",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "113"
+    },
+    {
+      "id": "player:rules:core:moves-how-to-use",
+      "sha256": "4a158e959fa7568a64fa0858afbfe8a6b97b822682660369627bb0665a12bd79",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "64–67"
+    },
+    {
+      "id": "player:forest_result",
+      "sha256": "512129500862c02507d76c4d1e6744d05f91b776a4ef39bc54c5617e1ad49f8a",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "121–122"
+    },
+    {
+      "id": "player:path_result",
+      "sha256": "e8de75c91167fa97d346aa1415d4d686ee8ba819dc868a41c936e07c018dab70",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "123–124"
+    },
+    {
+      "id": "gm:pc-conflict",
+      "sha256": "7d4752f6a60335366d6f600b9beae1e72f5cc5d787aa9933e721b01c4aabd905",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "219"
+    },
+    {
+      "id": "gm:clearing-template",
+      "sha256": "fd91d67f27c7a0608280e0167963b0cad1e1007e8104c8e0cc02d57693db9b45",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "235"
+    },
+    {
+      "id": "gm:war-status",
+      "sha256": "afc1711179f8e8ae8f99a8697d95ebf1e89d277ad891dd493073cfaf25cc2361",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "239"
+    },
+    {
+      "id": "gm:gm-responsibilities",
+      "sha256": "40c28decf488ca53083b092469f5222b46673f70bb1c16876156a41588b02890",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "194–195"
+    },
+    {
+      "id": "gm:npc-in-combat",
+      "sha256": "4713fa9cce7df3995bcf0328a9ccb10f01b6070b742a8dc56f21120882ec423f",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "218"
+    },
+    {
+      "id": "gm:combat-book-example",
+      "sha256": "29af22ccdd38e2b4279ca4e0fcf328d5046c3ca27cfc042eced57c0bc1a2ab78",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "219–221"
+    },
+    {
+      "id": "gm:cinematic-tools",
+      "sha256": "62cd73edbc3e0714f84e8209f3664c225bb8134319a0d020a983672e27836f5e",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "222"
+    },
+    {
+      "id": "gm:request-procedure",
+      "sha256": "ee513a4db26699da7d9a755941ba2f3fd37b46fa2a918f8565b12ac0e454ab94",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "236–238"
+    },
+    {
+      "id": "gm:core-war-time",
+      "sha256": "6c78988403c002ae09e089071b374e1487e5f498a2c211f0a5d10f6290009795",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "239"
+    },
+    {
+      "id": "gm:core-faction-roll",
+      "sha256": "43e63e5efdd41612c54312a3bcdf5a5fc303cab2d7a44f1513a68aeab5c8df9e",
+      "status": "source_checked",
+      "date": "2026-10-24",
+      "reviewer": "本次來源研究與對照；非獨立語義審查",
+      "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
+      "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pages": "240"
+    }
+  ],
+  "note": "以穩定 ID 與譯文 SHA-256 綁定校對紀錄。內容變動後，舊紀錄不再算完成。空白表示尚無此格式的逐條語義審查紀錄，不代表所有既有譯文都未曾比對。"
+}

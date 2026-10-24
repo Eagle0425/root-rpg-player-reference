@@ -25,6 +25,8 @@ jobs:
         uses: actions/checkout@v6
       - name: Validate static content
         run: node scripts/validate.mjs
+      - name: Check terminology and content provenance
+        run: node scripts/translation-quality.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site

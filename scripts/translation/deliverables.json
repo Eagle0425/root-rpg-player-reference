@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "artifacts": [
+    {
+      "path": "output/pdf/Root-RPG-中文角色卡-19種-A4列印版.pdf",
+      "bytes": 18680665,
+      "sha256": "64cfef090849fc22932f75b2f5d18501f0a3d88694a46023efdbab059e1ec3f4",
+      "role": "角色卡"
+    },
+    {
+      "path": "output/pdf/Root-RPG-中文角色卡-19種-A4可填寫版.pdf",
+      "bytes": 30813320,
+      "sha256": "73ac6216ce9ca69d08b7c73ca8b0f37ac63ccdcb368c92d5b8e9482df9d0401a",
+      "role": "角色卡"
+    },
+    {
+      "path": "output/pdf/Root-RPG-玩家參考資料-A4列印版.pdf",
+      "bytes": 1008584,
+      "sha256": "8b8a8c66c50aa175c5ef5fb43b43ce0633950362205cabbd09c02ea1ffa4b128",
+      "role": "速查資料"
+    },
+    {
+      "path": "output/簡報/Root-新手玩家介紹-校訂投影版-2026-10-24.pdf",
+      "bytes": 19401760,
+      "sha256": "5b095edef90acd18ee743ec678fe2bddc69d57379f598df1e647efde25e173c6",
+      "role": "投影與介紹"
+    },
+    {
+      "path": "output/簡報/Root-新手玩家介紹-校訂版-2026-10-24.pptx",
+      "bytes": 30761179,
+      "sha256": "a7fcfd10b5c1bb921521447613b71c926e1b2b724db8c5408ac752740e0d5aef",
+      "role": "投影與介紹"
+    },
+    {
+      "path": "output/圖表/GM團務流程時間表.png",
+      "bytes": 625563,
+      "sha256": "75ccc8c4b09a5abd1e72d170d6961f904bd5d546412d54b397764e37f89f511a",
+      "role": "速查資料"
+    }
+  ],
+  "note": "保留原始簡報與校訂版；校訂版為本輪修正成果。網頁新增的詳解不等於十頁核心速查 PDF 也變成全書譯本。"
+}

@@ -33,3 +33,5 @@
 
 
 .gm-category-filters{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0}.gm-category-filters button{border:1px solid var(--line);background:transparent;border-radius:24px;padding:8px 15px;font:inherit;color:var(--ink);cursor:pointer}.gm-category-filters button.active{background:var(--forest);color:#fff}.gm-summary p:last-child{margin-bottom:0}
+
+.editor-note{padding:14px 18px;border-left:4px solid #b58a42;background:#f5efdf;font-size:16px;line-height:1.8}.source-badge{display:inline-block;margin:4px 0 4px 8px;font-size:14px;padding:3px 8px;border-radius:5px;background:#e2ece5;color:#20473a}.source-badge.exp{background:#f0e4c9;color:#704f17}

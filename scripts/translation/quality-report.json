@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "scope": "已收錄條目的結構及術語檢查；不是逐段翻譯完整性證明",
+  "items": 842,
+  "books": {
+    "core": 390,
+    "exp": 452
+  },
+  "reviewStates": {
+    "recorded": 679,
+    "source_checked": 163,
+    "semantic_reviewed": 0
+  },
+  "failures": [],
+  "issues": [
+    {
+      "id": "player:reputation:exp:requisition-permits",
+      "kind": "source_ambiguity",
+      "note": "已回查原 PDF 書內第 41 頁，確為「公開受到保護、以對抗地國」；未將 against 默改為 by。此句含義不明，仍保留原文方向。",
+      "book": "exp",
+      "pages": "41"
+    },
+    {
+      "id": "gm:stuck-1",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "202–211"
+    },
+    {
+      "id": "gm:stuck-2",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "202–211"
+    },
+    {
+      "id": "gm:stuck-3",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "202–211"
+    },
+    {
+      "id": "gm:fiction-first",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "26–34, 64–67"
+    },
+    {
+      "id": "gm:result-ownership",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "68–88"
+    },
+    {
+      "id": "gm:combat-intent",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "89–109"
+    },
+    {
+      "id": "gm:npc-baselines",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "215"
+    },
+    {
+      "id": "gm:npc-drive-bank",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "212–213"
+    },
+    {
+      "id": "gm:harm-types",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "93, 125–129"
+    },
+    {
+      "id": "gm:past-track",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "127–128"
+    },
+    {
+      "id": "gm:recover-exhaustion",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "128"
+    },
+    {
+      "id": "gm:recover-injury",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "129"
+    },
+    {
+      "id": "gm:recover-wear",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "129"
+    },
+    {
+      "id": "gm:recover-depletion",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "126, 128"
+    },
+    {
+      "id": "gm:roll-inhabitants",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "235"
+    },
+    {
+      "id": "gm:roll-buildings",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "235"
+    },
+    {
+      "id": "gm:roll-problems",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "235"
+    },
+    {
+      "id": "gm:request-generator",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "236–238"
+    },
+    {
+      "id": "gm:time-passes",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "core",
+      "pages": "239–240"
+    },
+    {
+      "id": "gm:faction-roll",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "exp",
+      "pages": "182–183"
+    },
+    {
+      "id": "gm:faction-bonus",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "exp",
+      "pages": "182"
+    },
+    {
+      "id": "gm:minor-boons",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "exp",
+      "pages": "182–183"
+    },
+    {
+      "id": "gm:major-boons",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "exp",
+      "pages": "183"
+    },
+    {
+      "id": "gm:rumors",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "exp",
+      "pages": "185"
+    },
+    {
+      "id": "gm:phase-order",
+      "kind": "source_ambiguity",
+      "note": "原書不同段落順序不一致：第 184 頁總則與第 196 頁寫軍事行動→起義→同情；第 195 頁起義的觸發句卻寫在判定所有空地同情之後。本譯文保留各段文字，不替原書作勘誤。",
+      "book": "exp",
+      "pages": "184–185"
+    },
+    {
+      "id": "gm:optional-menu",
+      "kind": "summary_needs_source_review",
+      "note": "摘要／規則索引，尚非逐段全譯",
+      "book": "exp",
+      "pages": "23–78"
+    },
+    {
+      "id": "gm:alliance-revolt",
+      "kind": "source_ambiguity",
+      "note": "原書不同段落順序不一致：第 184 頁總則與第 196 頁寫軍事行動→起義→同情；第 195 頁起義的觸發句卻寫在判定所有空地同情之後。本譯文保留各段文字，不替原書作勘誤。",
+      "book": "exp",
+      "pages": "195"
+    },
+    {
+      "id": "gm:alliance-sympathy",
+      "kind": "source_ambiguity",
+      "note": "原書不同段落順序不一致：第 184 頁總則與第 196 頁寫軍事行動→起義→同情；第 195 頁起義的觸發句卻寫在判定所有空地同情之後。本譯文保留各段文字，不替原書作勘誤。",
+      "book": "exp",
+      "pages": "196"
+    }
+  ]
+}

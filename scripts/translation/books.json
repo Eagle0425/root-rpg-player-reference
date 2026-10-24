@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "books": [
+    {
+      "id": "core",
+      "title": "Root 核心規則書",
+      "sourceFilename": "RootTTPRG_Corebook_100721.pdf",
+      "sha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
+      "pdfPages": 258,
+      "printedToPdfOffset": 1,
+      "sourcePublished": false
+    },
+    {
+      "id": "exp",
+      "title": "旅者與外來者",
+      "sourceFilename": "Travelers__Outsiders.pdf",
+      "sha256": "8db45103be842ec5d0f127df549963e531a26daf67f0f436dbd0621956b31454",
+      "pdfPages": 258,
+      "printedToPdfOffset": 1,
+      "sourcePublished": false
+    }
+  ]
+}

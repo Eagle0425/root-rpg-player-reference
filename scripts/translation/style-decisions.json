@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "language": "zh-Hant-TW",
+  "translationMode": "full",
+  "publicEnglishSource": false,
+  "rules": [
+    "以使用者提供的核心與擴充 PDF 為主要來源；既有中文譯本用於術語比對。",
+    "完整翻譯須保留所有條件、選擇權、先後順序、代價、例外、數值與書中案例。摘要不能標為全文譯文。",
+    "不自創案例；來源沒有案例就不增補。編者說明與原書譯文分開。",
+    "使用臺灣繁體中文；規則意思優先，避免模仿英文語序。",
+    "保留來源書目、印刷頁碼、穩定條目識別碼與修訂紀錄。PDF 檢視頁碼為印刷頁碼加一。",
+    "核心與擴充分開標記；擴充選項須由全桌決定是否採用。",
+    "原文有歧義或疑似錯誤時忠實保留並記錄疑義，不默默勘誤。",
+    "條目已收錄、結構檢查通過、語義校對完成是不同狀態；不得以字數、頁碼或條目數替代語義校對。"
+  ],
+  "factionNames": ["貓咪貴族", "飛鷹王朝", "森林聯盟", "茂林居民", "河岸商會", "陰謀羽黨", "鼴鼠地國", "蜥蜴神教"],
+  "presentation": {
+    "title": "茂林源記TRPG",
+    "playerAndGmSeparated": true,
+    "bodyFont": "清松手寫體 2 Regular",
+    "headings": "清松手寫體 1 SemiBold／1 Medium",
+    "copyLinkLabel": "複製條目連結",
+    "characterSkillLinksOpenNewTab": true
+  },
+  "referenceTemplate": {
+    "url": "https://github.com/wayne930242/game-doc-template",
+    "adopted": ["集中術語決策", "分離內容與呈現", "來源與修訂追蹤", "結構檢查與語義審查分開", "獨立草稿整合"],
+    "adaptation": "採用流程概念，保留本專案既有介面、GitHub Pages 與使用者術語；未複製模板作者的個人翻譯風格。"
+  }
+}

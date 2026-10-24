@@ -2,6 +2,48 @@
 
 供手機與桌上遊戲查閱的繁體中文靜態網站。
 
+## 目前版本：2026-10-24
+
+正式站：[玩家手冊](https://eagle0425.github.io/root-rpg-player-reference/)／[GM 工作台](https://eagle0425.github.io/root-rpg-player-reference/gm.html)。
+
+本輪增加 116 項擴充玩家選項，核心範例裝備補至 17 件，另有 29 件擴充範例；裝備標籤分為核心 45 件、擴充 31 件。十九種扮演書新增 193 段背景、玩家指引與動作注解。GM 資料庫現有 254 條、50 張表，含三個範例領地的 62 條資料。新增內容可依核心／擴充篩選，各自保留印刷頁碼。
+
+參考 [game-doc-template](https://github.com/wayne930242/game-doc-template) 建立集中術語、翻譯決策、來源雜湊及版本綁定的校對紀錄，見 [翻譯流程](scripts/translation/README.md)。這些檢查不把已收錄當成逐字全譯或獨立語義校對完成；長文為來源段落譯寫，有縮句，審查狀態另外記錄。
+
+維護時先改 `scripts/reference.json` 或 `scripts/gm-reference.json`，依序執行：
+
+```text
+node scripts/translation-quality.mjs --write
+node scripts/sync-data.mjs
+node scripts/validate.mjs
+node scripts/translation-quality.mjs
+```
+
+玩家參考 PDF 已同步修正專長 7–9 選擇權與說服措辭，仍是十頁核心速查選錄。十九種角色卡的主要規則與網頁資料一致；可填寫版 4,385 欄位與 Widget 關聯一致。PDF 版型來源已保存於 `scripts/pdf/`，規則正文改讀唯一資料來源。
+
+下方保留各次更新紀錄；數量與現況以上述版本為準。
+
+## 目前版本：2026-10-24
+
+正式站：[玩家手冊](https://eagle0425.github.io/root-rpg-player-reference/)／[GM 工作台](https://eagle0425.github.io/root-rpg-player-reference/gm.html)。
+
+本輪增加 116 項擴充玩家選項，核心範例裝備補至 17 件，另有 29 件擴充範例；裝備標籤分為核心 45 件、擴充 31 件。十九種扮演書新增 193 段背景、玩家指引與動作注解。GM 資料庫現有 254 條、50 張表，含三個範例領地的 62 條資料。新增內容可依核心／擴充篩選，各自保留印刷頁碼。
+
+參考 [game-doc-template](https://github.com/wayne930242/game-doc-template) 建立集中術語、翻譯決策、來源雜湊及版本綁定的校對紀錄，見 [翻譯流程](scripts/translation/README.md)。這些檢查不把已收錄當成逐字全譯或獨立語義校對完成；長文為來源段落譯寫，有縮句，審查狀態另外記錄。
+
+維護時先改 `scripts/reference.json` 或 `scripts/gm-reference.json`，依序執行：
+
+```text
+node scripts/translation-quality.mjs --write
+node scripts/sync-data.mjs
+node scripts/validate.mjs
+node scripts/translation-quality.mjs
+```
+
+玩家參考 PDF 已同步修正專長 7–9 選擇權與說服措辭，仍是十頁核心速查選錄。十九種角色卡的主要規則與網頁資料一致；可填寫版 4,385 欄位與 Widget 關聯一致。PDF 版型來源已保存於 `scripts/pdf/`，規則正文改讀唯一資料來源。
+
+下方保留各次更新紀錄；數量與現況以上述版本為準。
+
 預定網址：**https://eagle0425.github.io/root-rpg-player-reference/**
 
 ## 內容

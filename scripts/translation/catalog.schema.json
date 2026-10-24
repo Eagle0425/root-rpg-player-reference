@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Root reference content index",
+  "type": "object",
+  "required": ["version", "items"],
+  "properties": {
+    "version": {"const": 1},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "audience", "book", "pages", "title", "category", "pointer", "sha256", "review"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "kind": {"type": "string"},
+          "audience": {"enum": ["player", "gm"]},
+          "book": {"enum": ["core", "exp"]},
+          "pages": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "category": {"type": "string"},
+          "pointer": {"type": "string", "pattern": "^(reference|gm-reference)\\.json#/"},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "review": {"enum": ["recorded", "source_checked", "semantic_reviewed"]}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
