@@ -45,6 +45,14 @@ for(const id of d.shared_rule_refs||[]){
  add(`player:shared:${id}`,'shared-rule','player',e,`gm-reference.json#/entries/${i}`,e.source.book,e.source.pages);
 }
 assert.equal(new Set(catalog.map(e=>e.id)).size,catalog.length,'Duplicate catalog ID');
+for(const ref of read('scripts/presentations/deck-lineage.json').records){
+ const rule=catalog.find(e=>e.id===ref.rule);assert.ok(rule,'Missing presentation rule '+ref.rule);
+ assert.equal(rule.sha256,ref.sha256,'Rule changed: review presentation slide '+ref.slide+' before updating lineage');
+}
+for(const ref of read('scripts/presentations/deck-lineage.json').records){
+ const rule=catalog.find(e=>e.id===ref.rule);assert.ok(rule,'Missing presentation rule '+ref.rule);
+ assert.equal(rule.sha256,ref.sha256,'Rule changed: review presentation slide '+ref.slide+' before updating lineage');
+}
 for(const e of catalog){
  for(const key of ['id','kind','audience','book','pages','title','category','pointer','sha256','review'])assert.ok(typeof e[key]==='string'&&e[key].length,'Required index field '+key+' '+e.id);
  assert.ok(['player','gm'].includes(e.audience),e.id);

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "slide": 10,
+      "rule": "player:basic:core:attempt-a-roguish-feat",
+      "sha256": "11015ace57d6eee68cec2b8aa9be9ea9ae344b1a95f257065f65540cc076da48"
+    },
+    {
+      "slide": 13,
+      "rule": "player:weapons:core:engage-in-melee",
+      "sha256": "529170dd8754d29c1230b9c13289aa7a5c9d97183f7f97a3bf805c2258917dc5"
+    },
+    {
+      "slide": 13,
+      "rule": "player:weapons:core:disarm",
+      "sha256": "ab0061a9c0edb12c02441cce1d291d17f37e0568a1373945cb840e4dff7e3380"
+    },
+    {
+      "slide": 14,
+      "rule": "player:glossary:exhaustion",
+      "sha256": "8c014776dc7dcaf8e1f216105f2187eedd45abb8f93684ba823dbb5bf1f65ae2"
+    },
+    {
+      "slide": 14,
+      "rule": "player:glossary:injury",
+      "sha256": "c7eb8bf6670b7096c14d6c30a4b355baa2c4cac423769207c4068cc38c65a817"
+    },
+    {
+      "slide": 14,
+      "rule": "player:glossary:depletion",
+      "sha256": "902803754cf2f17eae4d0c10602740bca7599aafa48352aa67c5196391da98b3"
+    },
+    {
+      "slide": 15,
+      "rule": "player:advancement_details",
+      "sha256": "8aef2c490f0b0e217e8b788e4d4ff69cf11f8fa7569a648656308f2d97e06132"
+    },
+    {
+      "slide": 16,
+      "rule": "player:rules:core:reputation-track",
+      "sha256": "73e0a9416814e6882a126e642afbbed0202bfddfb12b2bbfceebd36c00ec306a"
+    },
+    {
+      "slide": 17,
+      "rule": "player:forest_result",
+      "sha256": "512129500862c02507d76c4d1e6744d05f91b776a4ef39bc54c5617e1ad49f8a"
+    },
+    {
+      "slide": 17,
+      "rule": "player:path_result",
+      "sha256": "e8de75c91167fa97d346aa1415d4d686ee8ba819dc868a41c936e07c018dab70"
+    },
+    {
+      "slide": 37,
+      "rule": "player:daring_exploit",
+      "sha256": "f76cdf33d0ee38260f73159d067ccf02c7845090d0ba07c5c1c9937a7d7ed68c"
+    }
+  ]
+}

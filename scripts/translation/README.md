@@ -27,6 +27,10 @@
 7. 執行 `node scripts/sync-data.mjs` 與 `node scripts/validate.mjs`；預覽桌機及手機，檢查搜尋、篩選、來源標示與連結。
 8. 若正文影響 PDF 或角色卡，先記入跨成果檢查表，更新產製來源並重新生成；不能只改網站就宣稱所有輸出同步。
 
+新手簡報的關鍵規則頁另由 `scripts/presentations/deck-lineage.json` 綁定正文雜湊。來源規則變動時，發布檢查會要求先檢視相應簡報頁，避免再次發布選擇權或陣營名稱落後的導讀資料。
+
+新手簡報的關鍵規則頁另由 `scripts/presentations/deck-lineage.json` 綁定正文雜湊。來源規則變動時，發布檢查會要求先檢視相應簡報頁，避免再次發布選擇權或陣營名稱落後的導讀資料。
+
 ## 來源與狀態
 
 條目索引以 `book`（core／exp）、`pages`（印刷頁碼）、`audience`（player／gm）、`category`、`pointer`（正文位置）、`sha256`（內容版本）管理。網址與分類可改，內容 ID 應保持穩定。
