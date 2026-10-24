@@ -33,43 +33,43 @@
     },
     {
       "id": "player:basic:core:read-a-tense-situation",
-      "sha256": "a3eb9e3bb6592760335f5c555e5edd0aa58dbd8b22b8a5a0a8a030b6fa60936e",
+      "sha256": "ef3d43168ad37d025919748ca8b92a386b9cb058ff4cf49ea8b1374091612b58",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "77–78"
+      "pages": "77–79"
     },
     {
       "id": "player:basic:core:trick-an-npc",
-      "sha256": "1860cd38eee49b5aeaeb72bf12ce46166c4d239aedf5d5e6755af3df134e6e32",
+      "sha256": "055a574f4a4dce292d407a48399b43777aa7ec285611ebe33ae5a52e7a56bebf",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "79–80"
+      "pages": "79–81"
     },
     {
       "id": "player:basic:core:trust-fate",
-      "sha256": "c4d7c6b525a324138b676098cee474e4fc5caa13fecbd56af464a3d2993b093a",
+      "sha256": "e94235eb4aedbd720cad6c471833b44bca190a5fd4e8c8256f454b6944745c0d",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "82–83"
+      "pages": "82–84"
     },
     {
       "id": "player:basic:core:wreck-something",
-      "sha256": "4dcafa0f120a6ad06e3a80c90b54064cd3d061819015fa78e8687c4ddabc4d5e",
+      "sha256": "1e454a14b2f70ac1ddd8fd6123473bcf2369f1c8681f089c7e6dd6aac2134eef",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "84–85"
+      "pages": "84–86"
     },
     {
       "id": "player:basic:core:help-or-interfere",
@@ -93,13 +93,13 @@
     },
     {
       "id": "player:weapons:core:engage-in-melee",
-      "sha256": "529170dd8754d29c1230b9c13289aa7a5c9d97183f7f97a3bf805c2258917dc5",
+      "sha256": "cb7edcde6b917e1b29fa68548ca1cfe68400284dc4f3c83872584e9a864bd777",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "90–93"
+      "pages": "90–94"
     },
     {
       "id": "player:weapons:core:grapple-an-enemy",
@@ -113,13 +113,13 @@
     },
     {
       "id": "player:weapons:core:target-someone",
-      "sha256": "d9aadc8ceeeb31082fcddd6476d1e8420042cdb3bdb036afb4a7e429adf5d4fb",
+      "sha256": "1d3eae7aad0d16d2d2deb23f6b1f3a74d78d7adefbf331b5796b4b3159b08586",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "96"
+      "pages": "96–97"
     },
     {
       "id": "player:weapons:core:cleave",
@@ -133,13 +133,13 @@
     },
     {
       "id": "player:weapons:core:confuse-senses",
-      "sha256": "66e3478126ca6056a3921356b62265d45b7cc35b8339c44becaf7ab3a49807d3",
+      "sha256": "11df3ca7bb80013841171ed46cc45ec22848c34b4bb04b457d1893aad8b8a597",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "98"
+      "pages": "98–99"
     },
     {
       "id": "player:weapons:core:disarm",
@@ -223,63 +223,63 @@
     },
     {
       "id": "player:reputation:core:ask-for-a-favor",
-      "sha256": "6ec455aa2a584f7b59479ad7978ccc4217018b8a1a518c4da3bfb6159ee7f08a",
+      "sha256": "57309a05aae7d2f4077a867e87dcc28279a59aa6de6fbec52cb75076b04f1009",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "110–111, 112"
+      "pages": "110–112"
     },
     {
       "id": "player:reputation:core:meet-someone-important",
-      "sha256": "8e5ece94044e913f182fbf3aaeb17206964e04f18b23bd6941da5fd589c44b8a",
+      "sha256": "8e172be266c5d25013e8f90f3503d4ff4dfd7a171cd6a67c8da727f7261d3669",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "110–111, 113–114"
+      "pages": "113–114"
     },
     {
       "id": "player:reputation:core:sway-an-npc",
-      "sha256": "5d392d4893a201c05d31ef8f9392866802d3d996a3412f3fd10aae17df149004",
+      "sha256": "60e51318d0135923373c7a9599bd2d71fa53df22641efd3c98c9412cc68537cc",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "110–111, 117"
+      "pages": "117"
     },
     {
       "id": "player:reputation:core:command-resources",
-      "sha256": "e9e6dcfc3a38b532052bb6e408951ed92e5a4a2e367b7973af51e23e8717beee",
+      "sha256": "cbfdd2665a3854420c3de9e19ea2357f49ed673b7423c86b8e39db6ec9b81b6c",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "110–111, 119"
+      "pages": "119–120"
     },
     {
       "id": "player:reputation:core:draw-attention",
-      "sha256": "044e95dced10458e2b710e1604093ab11ff8d3f9d021f0c09266e5a15b995fcc",
+      "sha256": "885734949979e97f75475aacaed0e14cf25d0e4f63e87fc1be460c34b0fd1828",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "110–111, 115–116"
+      "pages": "115–116"
     },
     {
       "id": "player:reputation:core:make-a-pointed-threat",
-      "sha256": "70b4f764b7b24ad82eabb4cdd2ebdec75f653b1ce8009e81e819bf8726a4e0ae",
+      "sha256": "117998d9b7998dafa6e2ddfe79f76a952a369edd043b62be9af85b4bc636270e",
       "status": "source_checked",
       "date": "2026-10-24",
       "reviewer": "本次來源研究與對照；非獨立語義審查",
       "method": "比對指定來源段落的觸發、選擇權、數值、代價、例外及書中案例；後續仍須逐句語義校對。",
       "sourceBookSha256": "84670925967d5a4baafef7acfe3f10f7dc6f836d01c541b119187508e568fc97",
-      "pages": "110–111, 118–119"
+      "pages": "118–119"
     },
     {
       "id": "player:weapons:exp:battle-fury",

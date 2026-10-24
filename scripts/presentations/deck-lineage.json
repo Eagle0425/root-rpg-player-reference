@@ -9,7 +9,8 @@
     {
       "slide": 13,
       "rule": "player:weapons:core:engage-in-melee",
-      "sha256": "529170dd8754d29c1230b9c13289aa7a5c9d97183f7f97a3bf805c2258917dc5"
+      "sha256": "cb7edcde6b917e1b29fa68548ca1cfe68400284dc4f3c83872584e9a864bd777",
+      "reviewNote": "2026-10-24：來源頁碼擴至含第94頁案例；簡報第13頁規則與既有89–109頁參考範圍未變。"
     },
     {
       "slide": 13,
